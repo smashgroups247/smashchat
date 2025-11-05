@@ -35,7 +35,12 @@ export default function HeroSection() {
             Get The App Now
           </button>
 
-         
+          {/* Mobile Menu Button */}
+          <button className="lg:hidden p-[0.5rem]">
+            <div className="w-[1.5rem] h-[0.125rem] bg-black mb-[0.375rem]"></div>
+            <div className="w-[1.5rem] h-[0.125rem] bg-black mb-[0.375rem]"></div>
+            <div className="w-[1.5rem] h-[0.125rem] bg-black"></div>
+          </button>
         </div>
       </nav>
 
