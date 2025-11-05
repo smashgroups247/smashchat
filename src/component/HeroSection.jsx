@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function HeroSection() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   const handleNavClick = (e, href) => {
     e.preventDefault();
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+    setIsMobileMenuOpen(false);
   };
+
+  const navLinks = [
+    { href: '#about', label: 'About Us' },
+    { href: '#features', label: 'Features' },
+    { href: '#how', label: 'How It Works' },
+    { href: '#vendor', label: 'Become A Vendor' },
+    { href: '#support', label: 'Support' }
+  ];
 
   return (
     <div className="min-h-screen bg-white">
@@ -22,26 +33,61 @@ export default function HeroSection() {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center gap-[1.5rem] xl:gap-[2rem] 2xl:gap-[3rem] text-[0.875rem] xl:text-[1rem]">
-            <a href="#about" onClick={(e) => handleNavClick(e, '#about')} className="text-black hover:text-[#0096FF] transition-colors cursor-pointer">About Us</a>
-            <a href="#features" onClick={(e) => handleNavClick(e, '#features')} className="text-black hover:text-[#0096FF] transition-colors cursor-pointer">Features</a>
-            <a href="#how" onClick={(e) => handleNavClick(e, '#how')} className="text-black hover:text-[#0096FF] transition-colors cursor-pointer">How It Works</a>
-            <a href="#vendor" onClick={(e) => handleNavClick(e, '#vendor')} className="text-black hover:text-[#0096FF] transition-colors cursor-pointer">Become A Vendor</a>
-            <a href="#support" onClick={(e) => handleNavClick(e, '#support')} className="text-black hover:text-[#0096FF] transition-colors cursor-pointer">Support</a>
+            {navLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={(e) => handleNavClick(e, link.href)}
+                className="text-black hover:text-[#0096FF] transition-colors cursor-pointer"
+              >
+                {link.label}
+              </a>
+            ))}
           </div>
 
           {/* CTA Button */}
-          <button className="hidden sm:flex items-center gap-[0.5rem] bg-[#0096FF] text-white font-bold px-[1.25rem] md:px-[1.5rem] lg:px-[2rem] py-[0.625rem] md:py-[0.75rem] lg:py-[1rem] rounded-[1.25rem] hover:bg-[#0085e6] transition-colors text-[0.75rem] md:text-[0.875rem] lg:text-[1rem] whitespace-nowrap">
+          <a
+            href="#"
+            className="hidden sm:flex items-center gap-[0.5rem] bg-[#0096FF] text-white font-bold px-[1.25rem] md:px-[1.5rem] lg:px-[2rem] py-[0.625rem] md:py-[0.75rem] lg:py-[1rem] rounded-[1.25rem] hover:bg-[#0085e6] transition-colors text-[0.75rem] md:text-[0.875rem] lg:text-[1rem] whitespace-nowrap"
+          >
             <img src="/get-app-icon.svg" alt="" className="w-[0.875rem] h-[0.875rem] lg:w-[1rem] lg:h-[1rem]" />
             Get The App Now
-          </button>
+          </a>
 
           {/* Mobile Menu Button */}
-          <button className="lg:hidden p-[0.5rem]">
+          <button 
+            className="lg:hidden p-[0.5rem]"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
             <div className="w-[1.5rem] h-[0.125rem] bg-black mb-[0.375rem]"></div>
             <div className="w-[1.5rem] h-[0.125rem] bg-black mb-[0.375rem]"></div>
             <div className="w-[1.5rem] h-[0.125rem] bg-black"></div>
           </button>
         </div>
+
+        {/* Mobile Menu Dropdown */}
+        {isMobileMenuOpen && (
+          <div className="lg:hidden mt-[1rem] pt-[1rem] border-t border-gray-200 flex flex-col gap-[1rem]">
+            {navLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={(e) => handleNavClick(e, link.href)}
+                className="text-black hover:text-[#0096FF] transition-colors cursor-pointer text-[0.875rem] py-[0.5rem]"
+              >
+                {link.label}
+              </a>
+            ))}
+            <a
+              href="#"
+              className="sm:hidden flex items-center justify-center gap-[0.5rem] bg-[#0096FF] text-white font-bold px-[1.25rem] py-[0.75rem] rounded-[1.25rem] hover:bg-[#0085e6] transition-colors text-[0.875rem] mt-[0.5rem]"
+            >
+              <img src="/get-app-icon.svg" alt="" className="w-[0.875rem] h-[0.875rem]" />
+              Get The App Now
+            </a>
+          </div>
+        )}
       </nav>
 
       {/* Hero Section */}
@@ -74,7 +120,7 @@ export default function HeroSection() {
               </h1>
 
               {/* Africa Map Background */}
-              <div className="absolute hidden lg:block left-[6rem] xl:left-[12rem] 2xl:left-[12rem] top-[14rem] xl:top-[16rem] 2xl:top-[18rem] w-[20rem] xl:w-[29rem] 2xl:w-[35rem] h-[17rem] xl:h-[24.75rem] 2xl:h-[30rem] opacity-20 pointer-events-none z-0">
+              <div className="absolute left-[2rem] sm:left-[4rem] md:left-[6rem] lg:left-[6rem] xl:left-[12rem] 2xl:left-[12rem] top-[12rem] sm:top-[13rem] md:top-[14rem] lg:top-[14rem] xl:top-[16rem] 2xl:top-[18rem] w-[14rem] sm:w-[16rem] md:w-[18rem] lg:w-[20rem] xl:w-[29rem] 2xl:w-[35rem] h-[12rem] sm:h-[13.5rem] md:h-[15.3rem] lg:h-[17rem] xl:h-[24.75rem] 2xl:h-[30rem] opacity-20 pointer-events-none z-0">
                 <img src="/africa-map.png" alt="" className="w-full h-full object-contain" />
               </div>
 
@@ -85,15 +131,19 @@ export default function HeroSection() {
 
               {/* App Store Buttons */}
               <div className="flex flex-wrap gap-[0.75rem] sm:gap-[1rem] relative z-10">
-                <img src="/app-store-button.png" alt="Download on App Store" className="w-[7rem] sm:w-[8rem] md:w-[9rem] lg:w-[10rem] 2xl:w-[12rem] h-[2.5rem] sm:h-[3rem] md:h-[3.5rem] 2xl:h-[4rem] cursor-pointer hover:opacity-90 transition-opacity" />
-                <img src="/google-play-button.png" alt="Get it on Google Play" className="w-[7rem] sm:w-[8rem] md:w-[9rem] lg:w-[10rem] 2xl:w-[12rem] h-[2.5rem] sm:h-[3rem] md:h-[3.5rem] 2xl:h-[4rem] cursor-pointer hover:opacity-90 transition-opacity" />
+                <a href="#" className="block">
+                  <img src="/app-store-button.png" alt="Download on App Store" className="w-[7rem] sm:w-[8rem] md:w-[9rem] lg:w-[10rem] 2xl:w-[12rem] h-[2.5rem] sm:h-[3rem] md:h-[3.5rem] 2xl:h-[4rem] cursor-pointer hover:opacity-90 transition-opacity" />
+                </a>
+                <a href="#" className="block">
+                  <img src="/google-play-button.png" alt="Get it on Google Play" className="w-[7rem] sm:w-[8rem] md:w-[9rem] lg:w-[10rem] 2xl:w-[12rem] h-[2.5rem] sm:h-[3rem] md:h-[3.5rem] 2xl:h-[4rem] cursor-pointer hover:opacity-90 transition-opacity" />
+                </a>
               </div>
             </div>
 
             {/* Right Side - Image Area */}
-            <div className="relative w-full h-[35rem] sm:h-[45rem] md:h-[50rem] lg:absolute lg:right-0 lg:top-0 lg:w-[48%] xl:w-[43.375rem] 2xl:w-[55rem] lg:h-full lg:min-h-[56.25rem]">
+            <div className="relative w-full h-[35rem] sm:h-[45rem] md:h-[50rem] lg:absolute lg:right-0 lg:top-0 lg:w-[52%] xl:w-[48%] 2xl:w-[50%] lg:h-full lg:min-h-[56.25rem]">
               {/* Stars Decoration - Mobile & Tablet */}
-              <div className="absolute right-[1.5rem] top-[1rem] md:right-[42rem] md:top-[60rem] w-[3rem] h-[3.5rem] lg:hidden z-30">
+              <div className="absolute left-[0.5rem] sm:left-[1rem] bottom-[6.5rem] sm:bottom-[7.5rem] md:bottom-[8.5rem] w-[3rem] h-[3.5rem] lg:hidden z-30">
                 {/* Top Star */}
                 <img src="/star.png" alt="" className="absolute top-0 left-1/2 -translate-x-1/2 w-[0.875rem] h-[0.875rem]" />
                 {/* Left Star */}
@@ -105,7 +155,7 @@ export default function HeroSection() {
               </div>
 
               {/* Background Shape */}
-              <div className="absolute top-0 right-0 md:-right-[3.1875rem] lg:right-0 w-full h-full bg-[#E7F4F6] rounded-bl-[4rem] sm:rounded-bl-[5rem] md:rounded-bl-[6rem] lg:rounded-bl-[7.4375rem]"></div>
+              <div className="absolute top-0 right-0 md:-right-[3.1875rem] lg:-right-0 lg:-left-[4rem] xl:-left-[3rem] 2xl:-left-[2rem] w-full lg:w-[calc(100%+4rem)] xl:w-[calc(100%+3rem)] 2xl:w-[calc(100%+2rem)] h-full bg-[#E7F4F6] rounded-bl-[4rem] sm:rounded-bl-[5rem] md:rounded-bl-[6rem] lg:rounded-bl-[7.4375rem]"></div>
 
               {/* People Image */}
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2 lg:translate-x-0 lg:-left-[1rem] xl:-left-[0.5rem] 2xl:left-[1rem] w-[22rem] sm:w-[30rem] md:w-[35rem] lg:w-[40rem] xl:w-[37.5rem] 2xl:w-[48rem] h-[28rem] sm:h-[36rem] md:h-[42rem] lg:h-[48rem] xl:h-[50rem] 2xl:h-[60rem]">
