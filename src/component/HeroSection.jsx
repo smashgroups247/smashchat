@@ -118,7 +118,11 @@ export default function HeroSection() {
                 <span className="text-[#00212A] text-[0.75rem] sm:text-[0.875rem] md:text-[1rem] font-medium whitespace-nowrap">Shop with friends</span>
               </div>
 
-             
+              {/* Chat with friends card - Repositioned for mobile inside curved area */}
+              <div className="absolute top-[2rem] sm:top-[3rem] md:top-[4rem] lg:top-[6rem] xl:top-[8rem] 2xl:top-[10rem] right-[1rem] sm:right-[1.5rem] md:right-[2rem] lg:right-[2rem] xl:right-[3rem] 2xl:right-[4rem] bg-white rounded-full shadow-[0.25rem_0.25rem_3.625rem_rgba(0,0,0,0.12)] px-[1.25rem] sm:px-[1.5rem] md:px-[1.6875rem] py-[1rem] sm:py-[1.25rem] md:py-[1.5rem] flex items-center gap-[0.625rem] sm:gap-[0.75rem] md:gap-[1rem] z-20">
+                <img src="/chat-icon.svg" alt="" className="w-[1.25rem] h-[1.25rem] sm:w-[1.5rem] sm:h-[1.5rem] md:w-[1.75rem] md:h-[1.75rem]" />
+                <span className="text-[#00212A] text-[0.75rem] sm:text-[0.875rem] md:text-[1rem] font-medium whitespace-nowrap">Chat with friends</span>
+              </div>
             </div>
           </div>
         </div>
