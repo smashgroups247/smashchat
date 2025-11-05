@@ -85,8 +85,12 @@ export default function HeroSection() {
                 Marketplace App.
               </h1>
 
+              {/* Africa Map Background */}
+              <div className="absolute hidden lg:block left-[6rem] xl:left-[8rem] 2xl:left-[12rem] top-[14rem] xl:top-[16rem] 2xl:top-[18rem] w-[20rem] xl:w-[29rem] 2xl:w-[35rem] h-[17rem] xl:h-[24.75rem] 2xl:h-[30rem] opacity-20 pointer-events-none z-0">
+                <img src="/africa-map.png" alt="" className="w-full h-full object-contain" />
+              </div>
 
-          </div>
+                        </div>
         </div>
       </section>
     </div>
