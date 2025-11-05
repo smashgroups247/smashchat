@@ -23,7 +23,7 @@ export default function HeroSection() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navbar - Fixed positioning with rounded corners on desktop */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F7FCFC] shadow-[0_0.25rem_2.5rem_rgba(0,0,0,0.08)] px-[1.25rem] sm:px-[1.5rem] md:px-[2rem] lg:px-[2.5rem] py-[1rem] sm:py-[1.25rem] rounded-none md:rounded-bl-[2rem]">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F7FCFC] shadow-[0_0.25rem_2.5rem_rgba(0,0,0,0.08)] px-[1.25rem] sm:px-[1.5rem] md:px-[2rem] lg:mx- lg:px-[2.5rem] py-[1rem] sm:py-[1.25rem] rounded-none md:rounded-bl-[2rem]">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-[0.5rem]">
