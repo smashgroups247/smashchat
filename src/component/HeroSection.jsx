@@ -107,7 +107,19 @@ export default function HeroSection() {
               {/* Background Shape */}
               <div className="absolute top-0 right-0 w-full h-full bg-[#E7F4F6] rounded-bl-[4rem] sm:rounded-bl-[5rem] md:rounded-bl-[6rem] lg:rounded-bl-[7.4375rem]"></div>
 
-                        </div>
+              {/* People Image - Much Larger, touching bottom */}
+              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-[2rem] xl:left-[3rem] 2xl:left-[4rem] w-[22rem] sm:w-[30rem] md:w-[35rem] lg:w-[40rem] xl:w-[37.5rem] 2xl:w-[48rem] h-[28rem] sm:h-[36rem] md:h-[42rem] lg:h-[48rem] xl:h-[50rem] 2xl:h-[60rem]">
+                <img src="/hero-people.png" alt="People using SmashChat" className="w-full h-full object-cover object-top" />
+              </div>
+
+              {/* Shop with friends card */}
+              <div className="absolute bottom-[4rem] sm:bottom-[5rem] md:bottom-[6rem] lg:bottom-[8rem] xl:bottom-[10rem] 2xl:bottom-[12rem] left-[1rem] sm:left-[2rem] md:left-0 lg:-left-[3rem] xl:-left-[5rem] 2xl:-left-[6rem] bg-white rounded-full shadow-[0.25rem_0.25rem_3.625rem_rgba(0,0,0,0.12)] px-[1.25rem] sm:px-[1.5rem] md:px-[1.6875rem] py-[1rem] sm:py-[1.25rem] md:py-[1.5rem] flex items-center gap-[0.625rem] sm:gap-[0.75rem] md:gap-[1rem] z-20">
+                <img src="/shop-icon.svg" alt="" className="w-[1.25rem] h-[1.25rem] sm:w-[1.5rem] sm:h-[1.5rem] md:w-[1.75rem] md:h-[1.75rem]" />
+                <span className="text-[#00212A] text-[0.75rem] sm:text-[0.875rem] md:text-[1rem] font-medium whitespace-nowrap">Shop with friends</span>
+              </div>
+
+             
+            </div>
           </div>
         </div>
       </section>
