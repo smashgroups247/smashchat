@@ -1,9 +1,10 @@
-function App() {
+import React from 'react'
+import HeroSection from './component/HeroSection.jsx'
+
+const App = () => {
   return (
-    <div className="min-h-screen bg-blue-500 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-white">
-        App
-      </h1>
+    <div>
+    <HeroSection />
     </div>
   )
 }
