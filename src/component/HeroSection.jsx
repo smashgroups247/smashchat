@@ -23,7 +23,7 @@ export default function HeroSection() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navbar - Fixed positioning with rounded corners on desktop */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F7FCFC] shadow-[0_0.25rem_2.5rem_rgba(0,0,0,0.08)] px-[1.25rem] sm:px-[1.5rem] md:px-[2rem] lg:mx- lg:px-[2.5rem] py-[1rem] sm:py-[1.25rem] rounded-none md:rounded-bl-[2rem]">
+   <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F7FCFC] shadow-[0_0.25rem_2.5rem_rgba(0,0,0,0.08)] px-[1.25rem] sm:px-[1.5rem] md:px-[2rem] lg:mx-[5rem] lg:px-[2.5rem] py-[1rem] sm:py-[1.25rem] rounded-none lg:rounded-bl-[2rem]">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-[0.5rem]">
@@ -156,7 +156,7 @@ export default function HeroSection() {
               </div>
 
               {/* Background Shape - extends to fill on mobile, fully accommodates image on desktop */}
-              <div className="absolute -top-[6rem] -right-[1rem] sm:-top-[6rem] sm:-right-[1.5rem] md:-top-[6rem] md:-right-[3.1875rem] lg:-top-[2rem] lg:-right-[5rem] lg:-left-[3rem] xl:-top-[2rem] xl:-right-[6rem] xl:-left-[3rem] 2xl:-top-[2rem] 2xl:-right-[8rem] 2xl:-left-[2rem] w-[calc(100%+1rem)] sm:w-[calc(100%+1.5rem)] md:w-full lg:w-[calc(100%+8rem)] xl:w-[calc(100%+9rem)] 2xl:w-[calc(100%+10rem)] h-[calc(100%+6rem)] lg:h-[calc(100%+4rem)] xl:h-[calc(100%+4rem)] 2xl:h-[calc(100%+4rem)] bg-[#E7F4F6] rounded-bl-[4rem] sm:rounded-bl-[5rem] md:rounded-bl-[6rem] lg:rounded-bl-[7.4375rem]"></div>
+             <div className="absolute -top-[12rem] sm:-top-[14rem] md:-top-[16rem] lg:-top-[10rem] xl:-top-[12rem] 2xl:-top-[14rem] -right-[1rem] sm:-right-[1.5rem] md:-right-[3.1875rem] lg:-right-[5rem] lg:-left-[3rem] xl:-right-[6rem] xl:-left-[3rem] 2xl:-right-[8rem] 2xl:-left-[2rem] w-[calc(100%+1rem)] sm:w-[calc(100%+1.5rem)] md:w-full lg:w-[calc(100%+8rem)] xl:w-[calc(100%+9rem)] 2xl:w-[calc(100%+10rem)] h-[calc(100%+18rem)] sm:h-[calc(100%+20rem)] md:h-[calc(100%+22rem)] lg:h-[calc(100%+17rem)] xl:h-[calc(100%+19rem)] 2xl:h-[calc(100%+21rem)] bg-[#E7F4F6] rounded-bl-[4rem] sm:rounded-bl-[5rem] md:rounded-bl-[6rem] lg:rounded-bl-[7.4375rem]"></div>
 
               {/* People Image */}
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2 lg:left-0 lg:translate-x-0 w-[22rem] sm:w-[30rem] md:w-[35rem] lg:w-[35rem] xl:w-[40rem] 2xl:w-[48rem] h-[28rem] sm:h-[36rem] md:h-[42rem] lg:h-[42rem] xl:h-[48rem] 2xl:h-[60rem]">
