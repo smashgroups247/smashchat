@@ -97,7 +97,7 @@ export default function HeroSection() {
             {/* Left Content */}
             <div className="relative z-10 space-y-[1.25rem] sm:space-y-[1.5rem] md:space-y-[2rem] lg:space-y-[2.5rem] pb-[4rem] sm:pb-[5rem] md:pb-[6rem] lg:pb-0 lg:pr-[2rem]">
               {/* Stars Decoration - Desktop (4 stars in rhombus) - positioned beside paragraph */}
-              <div className="absolute top-[18rem] xl:top-[20rem] 2xl:top-[22rem] -left-[2rem] xl:-left-[6.5rem] w-[4rem] h-[4.5rem] xl:w-[5rem] xl:h-[5.5rem] hidden lg:block">
+              <div className="absolute top-[31rem] xl:top-[20rem] 2xl:top-[22rem] -left-[5rem] xl:-left-[6.5rem] w-[4rem] h-[4.5rem] xl:w-[5rem] xl:h-[5.5rem] hidden lg:block">
                 {/* Top Star */}
                 <img src="/star.png" alt="" className="absolute top-0 left-1/2 -translate-x-1/2 w-[1rem] h-[1rem] xl:w-[1.25rem] xl:h-[1.25rem]" />
                 {/* Left Star */}
