@@ -20,6 +20,15 @@ export default function HeroSection() {
             <span className="font-bold text-[1rem] sm:text-[1.125rem] lg:text-[1.25rem]">SmashChat</span>
           </div>
 
+          {/* Desktop Menu */}
+          <div className="hidden lg:flex items-center gap-[1.5rem] xl:gap-[2rem] 2xl:gap-[3rem] text-[0.875rem] xl:text-[1rem]">
+            <a href="#about" onClick={(e) => handleNavClick(e, '#about')} className="text-black hover:text-[#0096FF] transition-colors cursor-pointer">About Us</a>
+            <a href="#features" onClick={(e) => handleNavClick(e, '#features')} className="text-black hover:text-[#0096FF] transition-colors cursor-pointer">Features</a>
+            <a href="#how" onClick={(e) => handleNavClick(e, '#how')} className="text-black hover:text-[#0096FF] transition-colors cursor-pointer">How It Works</a>
+            <a href="#vendor" onClick={(e) => handleNavClick(e, '#vendor')} className="text-black hover:text-[#0096FF] transition-colors cursor-pointer">Become A Vendor</a>
+            <a href="#support" onClick={(e) => handleNavClick(e, '#support')} className="text-black hover:text-[#0096FF] transition-colors cursor-pointer">Support</a>
+          </div>
+
         </div>
       </nav>
 
