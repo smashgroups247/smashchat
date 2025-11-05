@@ -62,7 +62,20 @@ export default function HeroSection() {
                 <img src="/star.png" alt="" className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1.25rem] h-[1.25rem]" />
               </div>
 
-                       </div>
+              {/* Stars Decoration - Mobile (beside curved background top-right) */}
+              <div className="absolute right-[0.5rem] top-[-1rem] w-[3rem] h-[3.5rem] lg:hidden z-30">
+                {/* Top Star */}
+                <img src="/star.png" alt="" className="absolute top-0 left-1/2 -translate-x-1/2 w-[0.875rem] h-[0.875rem]" />
+                {/* Left Star */}
+                <img src="/star.png" alt="" className="absolute top-1/2 left-0 -translate-y-1/2 w-[0.875rem] h-[0.875rem]" />
+                {/* Right Star */}
+                <img src="/star.png" alt="" className="absolute top-1/2 right-0 -translate-y-1/2 w-[0.875rem] h-[0.875rem]" />
+                {/* Bottom Star */}
+                <img src="/star.png" alt="" className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[0.875rem] h-[0.875rem]" />
+              </div>
+
+         
+          </div>
         </div>
       </section>
     </div>
