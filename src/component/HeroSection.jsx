@@ -95,7 +95,14 @@ export default function HeroSection() {
                 Connect, chat, and shop with your contacts, all in one place. Launching across Africa. Be first in line.
               </p>
 
-             
+              {/* App Store Buttons */}
+              <div className="flex flex-wrap gap-[0.75rem] sm:gap-[1rem] relative z-10">
+                <img src="/app-store-button.png" alt="Download on App Store" className="w-[7rem] sm:w-[8rem] md:w-[9rem] lg:w-[10rem] 2xl:w-[12rem] h-[2.5rem] sm:h-[3rem] md:h-[3.5rem] 2xl:h-[4rem] cursor-pointer hover:opacity-90 transition-opacity" />
+                <img src="/google-play-button.png" alt="Get it on Google Play" className="w-[7rem] sm:w-[8rem] md:w-[9rem] lg:w-[10rem] 2xl:w-[12rem] h-[2.5rem] sm:h-[3rem] md:h-[3.5rem] 2xl:h-[4rem] cursor-pointer hover:opacity-90 transition-opacity" />
+              </div>
+            </div>
+
+           
           </div>
         </div>
       </section>
