@@ -102,7 +102,12 @@ export default function HeroSection() {
               </div>
             </div>
 
-           
+            {/* Right Side - Image Area */}
+            <div className="relative lg:absolute lg:right-0 lg:top-0 lg:w-[48%] xl:w-[43.375rem] 2xl:w-[55rem] h-[35rem] sm:h-[45rem] md:h-[50rem] lg:h-full lg:min-h-screen">
+              {/* Background Shape */}
+              <div className="absolute top-0 right-0 w-full h-full bg-[#E7F4F6] rounded-bl-[4rem] sm:rounded-bl-[5rem] md:rounded-bl-[6rem] lg:rounded-bl-[7.4375rem]"></div>
+
+                        </div>
           </div>
         </div>
       </section>
