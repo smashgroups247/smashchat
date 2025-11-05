@@ -44,7 +44,27 @@ export default function HeroSection() {
         </div>
       </nav>
 
-    
+      {/* Hero Section */}
+      <section className="relative pt-[7rem] sm:pt-[8rem] md:pt-[9rem] lg:pt-[10rem] pb-[3rem] sm:pb-[5rem] lg:pb-0 min-h-screen">
+        <div className="max-w-[90rem] 2xl:max-w-[120rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem] 2xl:px-[8rem]">
+          <div className="grid lg:grid-cols-2 gap-[2rem] lg:gap-[3rem] xl:gap-[4rem] items-center">
+            {/* Left Content */}
+            <div className="relative z-10 space-y-[1.25rem] sm:space-y-[1.5rem] md:space-y-[2rem] lg:space-y-[2.5rem]">
+              {/* Stars Decoration - Desktop (4 stars in rhombus) */}
+              <div className="absolute top-[20rem] xl:top-[23rem] -left-[4rem] xl:-left-[6rem] w-[5rem] h-[5.5rem] xl:w-[6.088rem] xl:h-[6.801rem] hidden lg:block">
+                {/* Top Star */}
+                <img src="/star.png" alt="" className="absolute top-0 left-1/2 -translate-x-1/2 w-[1.25rem] h-[1.25rem]" />
+                {/* Left Star */}
+                <img src="/star.png" alt="" className="absolute top-1/2 left-0 -translate-y-1/2 w-[1.25rem] h-[1.25rem]" />
+                {/* Right Star */}
+                <img src="/star.png" alt="" className="absolute top-1/2 right-0 -translate-y-1/2 w-[1.25rem] h-[1.25rem]" />
+                {/* Bottom Star */}
+                <img src="/star.png" alt="" className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1.25rem] h-[1.25rem]" />
+              </div>
+
+                       </div>
+        </div>
+      </section>
     </div>
   );
 }
