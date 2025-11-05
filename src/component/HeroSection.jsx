@@ -23,7 +23,7 @@ export default function HeroSection() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navbar - Fixed positioning */}
-      <nav className="fixed top-[1.25rem] left-1/2 -translate-x-1/2 z-50 w-[95%] sm:w-[90%] max-w-[80rem] 2xl:max-w-[100rem] bg-[#F7FCFC] rounded-[1.5rem] shadow-[0_0.25rem_2.5rem_rgba(0,0,0,0.08)] px-[1.25rem] sm:px-[1.5rem] md:px-[2rem] lg:px-[2.5rem] py-[1rem] sm:py-[1.25rem]">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F7FCFC] shadow-[0_0.25rem_2.5rem_rgba(0,0,0,0.08)] px-[1.25rem] sm:px-[1.5rem] md:px-[2rem] lg:px-[2.5rem] py-[1rem] sm:py-[1.25rem]">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-[0.5rem]">
@@ -91,13 +91,13 @@ export default function HeroSection() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative pt-[7rem] sm:pt-[8rem] md:pt-[9rem] lg:pt-[10rem] pb-0">
+      <section className="relative pt-[5rem] sm:pt-[5.5rem] md:pt-[6rem] lg:pt-[6.5rem] pb-0">
         <div className="max-w-[90rem] 2xl:max-w-[120rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem] 2xl:px-[8rem]">
           <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-[2rem] lg:gap-[3rem] xl:gap-[4rem] items-center">
             {/* Left Content */}
             <div className="relative z-10 space-y-[1.25rem] sm:space-y-[1.5rem] md:space-y-[2rem] lg:space-y-[2.5rem] pb-[3rem] sm:pb-[4rem] lg:pb-0">
               {/* Stars Decoration - Desktop (4 stars in rhombus) */}
-              <div className="absolute top-[20rem] xl:top-[23rem] -left-[4rem] xl:-left-[6rem] w-[5rem] h-[5.5rem] xl:w-[6.088rem] xl:h-[6.801rem] hidden lg:block">
+              <div className="absolute bottom-[14.5rem] -left-[1rem] w-[5rem] h-[5.5rem] xl:w-[6.088rem] xl:h-[6.801rem] hidden lg:block">
                 {/* Top Star */}
                 <img src="/star.png" alt="" className="absolute top-0 left-1/2 -translate-x-1/2 w-[1.25rem] h-[1.25rem]" />
                 {/* Left Star */}
@@ -120,7 +120,7 @@ export default function HeroSection() {
               </h1>
 
               {/* Africa Map Background */}
-              <div className="absolute left-[2rem] sm:left-[4rem] md:left-[6rem] lg:left-[6rem] xl:left-[12rem] 2xl:left-[12rem] top-[12rem] sm:top-[13rem] md:top-[14rem] lg:top-[14rem] xl:top-[16rem] 2xl:top-[18rem] w-[14rem] sm:w-[16rem] md:w-[18rem] lg:w-[20rem] xl:w-[29rem] 2xl:w-[35rem] h-[12rem] sm:h-[13.5rem] md:h-[15.3rem] lg:h-[17rem] xl:h-[24.75rem] 2xl:h-[30rem] opacity-20 pointer-events-none z-0">
+              <div className="absolute left-[10rem] sm:left-[12rem] md:left-[14rem] lg:left-[8rem] xl:left-[14rem] 2xl:left-[16rem] top-[12rem] sm:top-[13rem] md:top-[14rem] lg:top-[14rem] xl:top-[16rem] 2xl:top-[18rem] w-[14rem] sm:w-[16rem] md:w-[18rem] lg:w-[20rem] xl:w-[29rem] 2xl:w-[35rem] h-[12rem] sm:h-[13.5rem] md:h-[15.3rem] lg:h-[17rem] xl:h-[24.75rem] 2xl:h-[30rem] opacity-20 pointer-events-none z-0">
                 <img src="/africa-map.png" alt="" className="w-full h-full object-contain" />
               </div>
 
@@ -143,7 +143,7 @@ export default function HeroSection() {
             {/* Right Side - Image Area */}
             <div className="relative w-full h-[35rem] sm:h-[45rem] md:h-[50rem] lg:absolute lg:right-0 lg:top-0 lg:w-[52%] xl:w-[48%] 2xl:w-[50%] lg:h-full lg:min-h-[56.25rem]">
               {/* Stars Decoration - Mobile & Tablet */}
-              <div className="absolute left-[0.5rem] sm:left-[1rem] bottom-[6.5rem] sm:bottom-[7.5rem] md:bottom-[8.5rem] w-[3rem] h-[3.5rem] lg:hidden z-30">
+              <div className="absolute -left-[1rem] bottom-[8.5rem] w-[3rem] h-[3.5rem] lg:hidden z-30">
                 {/* Top Star */}
                 <img src="/star.png" alt="" className="absolute top-0 left-1/2 -translate-x-1/2 w-[0.875rem] h-[0.875rem]" />
                 {/* Left Star */}
@@ -155,7 +155,7 @@ export default function HeroSection() {
               </div>
 
               {/* Background Shape */}
-              <div className="absolute top-0 right-0 md:-right-[3.1875rem] lg:-right-0 lg:-left-[4rem] xl:-left-[3rem] 2xl:-left-[2rem] w-full lg:w-[calc(100%+4rem)] xl:w-[calc(100%+3rem)] 2xl:w-[calc(100%+2rem)] h-full bg-[#E7F4F6] rounded-bl-[4rem] sm:rounded-bl-[5rem] md:rounded-bl-[6rem] lg:rounded-bl-[7.4375rem]"></div>
+              <div className="absolute top-0 right-0 md:-right-[3.1875rem] lg:-right-0 lg:-left-[4rem] xl:-left-[3rem] 2xl:-left-[2rem] w-full lg:w-[calc(100%+4rem)] xl:w-[calc(100%+3rem)] 2xl:w-[calc(100%+2rem)] h-[calc(100%+6rem)] bg-[#E7F4F6] rounded-bl-[4rem] sm:rounded-bl-[5rem] md:rounded-bl-[6rem] lg:rounded-bl-[7.4375rem]"></div>
 
               {/* People Image */}
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2 lg:translate-x-0 lg:-left-[1rem] xl:-left-[0.5rem] 2xl:left-[1rem] w-[22rem] sm:w-[30rem] md:w-[35rem] lg:w-[40rem] xl:w-[37.5rem] 2xl:w-[48rem] h-[28rem] sm:h-[36rem] md:h-[42rem] lg:h-[48rem] xl:h-[50rem] 2xl:h-[60rem]">
