@@ -32,7 +32,7 @@ export default function HeroSection() {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex items-center gap-[1.5rem] xl:gap-[2rem] 2xl:gap-[3rem] text-[0.875rem] xl:text-[1rem]">
+          <div className="hidden lg:flex items-center gap-[0.5rem] xl:gap-[2rem] 2xl:gap-[3rem] text-[0.875rem] xl:text-[1rem]">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -156,7 +156,7 @@ export default function HeroSection() {
               </div>
 
               {/* Background Shape - extends to fill on mobile, fully accommodates image on desktop */}
-             <div className="absolute -top-[12rem] sm:-top-[14rem] md:-top-[16rem] lg:-top-[10rem] xl:-top-[12rem] 2xl:-top-[14rem] -right-[1rem] sm:-right-[1.5rem] md:-right-[3.1875rem] lg:-right-[5rem] lg:-left-[3rem] xl:-right-[6rem] xl:-left-[3rem] 2xl:-right-[8rem] 2xl:-left-[2rem] w-[calc(100%+1rem)] sm:w-[calc(100%+1.5rem)] md:w-full lg:w-[calc(100%+8rem)] xl:w-[calc(100%+9rem)] 2xl:w-[calc(100%+10rem)] h-[calc(100%+18rem)] sm:h-[calc(100%+20rem)] md:h-[calc(100%+22rem)] lg:h-[calc(100%+17rem)] xl:h-[calc(100%+19rem)] 2xl:h-[calc(100%+21rem)] bg-[#E7F4F6] rounded-bl-[4rem] sm:rounded-bl-[5rem] md:rounded-bl-[6rem] lg:rounded-bl-[7.4375rem]"></div>
+             <div className="absolute -top-[18rem] sm:-top-[14rem] md:-top-[22rem] lg:-top-[10rem] xl:-top-[12rem] 2xl:-top-[14rem] -right-[1rem] sm:-right-[1.5rem] md:-right-[3.1875rem] lg:-right-[5rem] lg:-left-[3rem] xl:-right-[6rem] xl:-left-[3rem] 2xl:-right-[8rem] 2xl:-left-[2rem] w-[calc(100%+1rem)] sm:w-[calc(100%+1.5rem)] md:w-full lg:w-[calc(100%+8rem)] xl:w-[calc(100%+9rem)] 2xl:w-[calc(100%+10rem)] h-[calc(100%+18rem)] sm:h-[calc(100%+20rem)] md:h-[calc(100%+22rem)] lg:h-[calc(100%+17rem)] xl:h-[calc(100%+19rem)] 2xl:h-[calc(100%+21rem)] bg-[#E7F4F6] rounded-bl-[4rem] sm:rounded-bl-[5rem] md:rounded-bl-[6rem] lg:rounded-bl-[7.4375rem]"></div>
 
               {/* People Image */}
               <div className="absolute bottom-0 left-1/2 -translate-x-1/2 lg:left-0 lg:translate-x-0 w-[22rem] sm:w-[30rem] md:w-[35rem] lg:w-[35rem] xl:w-[40rem] 2xl:w-[48rem] h-[28rem] sm:h-[36rem] md:h-[42rem] lg:h-[42rem] xl:h-[48rem] 2xl:h-[60rem]">
