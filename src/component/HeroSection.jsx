@@ -29,6 +29,13 @@ export default function HeroSection() {
             <a href="#support" onClick={(e) => handleNavClick(e, '#support')} className="text-black hover:text-[#0096FF] transition-colors cursor-pointer">Support</a>
           </div>
 
+          {/* CTA Button */}
+          <button className="hidden sm:flex items-center gap-[0.5rem] bg-[#0096FF] text-white font-bold px-[1.25rem] md:px-[1.5rem] lg:px-[2rem] py-[0.625rem] md:py-[0.75rem] lg:py-[1rem] rounded-[1.25rem] hover:bg-[#0085e6] transition-colors text-[0.75rem] md:text-[0.875rem] lg:text-[1rem] whitespace-nowrap">
+            <img src="/get-app-icon.svg" alt="" className="w-[0.875rem] h-[0.875rem] lg:w-[1rem] lg:h-[1rem]" />
+            Get The App Now
+          </button>
+
+         
         </div>
       </nav>
 
