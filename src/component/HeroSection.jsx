@@ -23,7 +23,7 @@ export default function HeroSection() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navbar - Fixed positioning with rounded corners on desktop */}
-   <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F7FCFC] shadow-[0_0.25rem_2.5rem_rgba(0,0,0,0.08)] px-[1.25rem] sm:px-[1.5rem] md:px-[2rem] lg:mx-[5rem] lg:px-[2.5rem] py-[1rem] sm:py-[1.25rem] rounded-none lg:rounded-bl-[2rem]">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F7FCFC] shadow-[0_0.25rem_2.5rem_rgba(0,0,0,0.08)] px-[1.25rem] sm:px-[1.5rem] md:px-[2rem] lg:mx-[5rem] xl:mx-[6rem] 2xl:mx-[8rem] lg:px-[2.5rem] py-[1rem] sm:py-[1.25rem] rounded-none lg:mt-[2.5rem] lg:rounded-[1.5rem]">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-[0.5rem]">
@@ -97,7 +97,7 @@ export default function HeroSection() {
             {/* Left Content */}
             <div className="relative z-10 space-y-[1.25rem] sm:space-y-[1.5rem] md:space-y-[2rem] lg:space-y-[2.5rem] pb-[4rem] sm:pb-[5rem] md:pb-[6rem] lg:pb-0 lg:pr-[2rem]">
               {/* Stars Decoration - Desktop (4 stars in rhombus) - positioned beside paragraph */}
-              <div className="absolute top-[18rem] xl:top-[20rem] 2xl:top-[22rem] -left-[2rem] xl:-left-[2.5rem] w-[4rem] h-[4.5rem] xl:w-[5rem] xl:h-[5.5rem] hidden lg:block">
+              <div className="absolute top-[18rem] xl:top-[20rem] 2xl:top-[22rem] -left-[2rem] xl:-left-[6.5rem] w-[4rem] h-[4.5rem] xl:w-[5rem] xl:h-[5.5rem] hidden lg:block">
                 {/* Top Star */}
                 <img src="/star.png" alt="" className="absolute top-0 left-1/2 -translate-x-1/2 w-[1rem] h-[1rem] xl:w-[1.25rem] xl:h-[1.25rem]" />
                 {/* Left Star */}
@@ -164,13 +164,13 @@ export default function HeroSection() {
               </div>
 
               {/* Shop with friends card */}
-              <div className="absolute bottom-[4rem] sm:bottom-[5rem] md:bottom-[6rem] lg:bottom-[6rem] xl:bottom-[8rem] 2xl:bottom-[12rem] left-[-0.6rem] sm:left-[2rem] md:left-[-2rem] lg:left-[-2rem] xl:left-[-3rem] 2xl:-left-[6rem] bg-white rounded-full shadow-[0.25rem_0.25rem_3.625rem_rgba(0,0,0,0.12)] px-[1.25rem] sm:px-[1.5rem] md:px-[1.6875rem] py-[1rem] sm:py-[1.25rem] md:py-[1.5rem] flex items-center gap-[0.625rem] sm:gap-[0.75rem] md:gap-[1rem] z-20">
+              <div className="absolute bottom-[4rem] sm:bottom-[5rem] md:bottom-[6rem] lg:bottom-[6rem] xl:bottom-[8rem] 2xl:bottom-[12rem] left-[-0.6rem] sm:left-[2rem] md:left-[-2rem] lg:left-[-6rem] xl:left-[-8rem] 2xl:-left-[6rem] bg-white rounded-full shadow-[0.25rem_0.25rem_3.625rem_rgba(0,0,0,0.12)] px-[1.25rem] sm:px-[1.5rem] md:px-[1.6875rem] py-[1rem] sm:py-[1.25rem] md:py-[1.5rem] flex items-center gap-[0.625rem] sm:gap-[0.75rem] md:gap-[1rem] z-20">
                 <img src="/shop-icon.svg" alt="" className="w-[1.25rem] h-[1.25rem] sm:w-[1.5rem] sm:h-[1.5rem] md:w-[1.75rem] md:h-[1.75rem]" />
                 <span className="text-[#00212A] text-[0.75rem] sm:text-[0.875rem] md:text-[1rem] font-medium whitespace-nowrap">Shop with friends</span>
               </div>
 
               {/* Chat with friends card */}
-              <div className="absolute top-[2rem] sm:top-[3rem] md:top-[4rem] lg:top-[8rem] xl:top-[10rem] 2xl:top-[10rem] right-[1rem] sm:right-[1.5rem] md:right-[2rem] lg:right-[1rem] xl:right-[2rem] 2xl:right-[4rem] bg-white rounded-full shadow-[0.25rem_0.25rem_3.625rem_rgba(0,0,0,0.12)] px-[1.25rem] sm:px-[1.5rem] md:px-[1.6875rem] py-[1rem] sm:py-[1.25rem] md:py-[1.5rem] flex items-center gap-[0.625rem] sm:gap-[0.75rem] md:gap-[1rem] z-20">
+              <div className="absolute top-[2rem] sm:top-[3rem] md:top-[4rem] lg:top-[6rem] xl:top-[6rem] 2xl:top-[4rem] right-[1rem] sm:right-[1.5rem] md:right-[2rem] lg:right-[1rem] xl:right-[2rem] 2xl:right-[0rem] bg-white rounded-full shadow-[0.25rem_0.25rem_3.625rem_rgba(0,0,0,0.12)] px-[1.25rem] sm:px-[1.5rem] md:px-[1.6875rem] py-[1rem] sm:py-[1.25rem] md:py-[1.5rem] flex items-center gap-[0.625rem] sm:gap-[0.75rem] md:gap-[1rem] z-20">
                 <img src="/chat-icon.svg" alt="" className="w-[1.25rem] h-[1.25rem] sm:w-[1.5rem] sm:h-[1.5rem] md:w-[1.75rem] md:h-[1.75rem]" />
                 <span className="text-[#00212A] text-[0.75rem] sm:text-[0.875rem] md:text-[1rem] font-medium whitespace-nowrap">Chat with friends</span>
               </div>
