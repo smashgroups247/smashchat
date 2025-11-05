@@ -74,7 +74,18 @@ export default function HeroSection() {
                 <img src="/star.png" alt="" className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[0.875rem] h-[0.875rem]" />
               </div>
 
-         
+              {/* Badge */}
+              <div className="inline-flex items-center gap-[0.5rem] bg-[#0096FF] text-white px-[1rem] sm:px-[1.25rem] py-[0.625rem] sm:py-[0.75rem] rounded-full shadow-[0_0.25rem_0.5rem_rgba(20,27,52,0.04)] text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.5rem]">
+                Connect • Chat • Shop
+              </div>
+
+              {/* Main Heading */}
+              <h1 className="text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] xl:text-[4rem] 2xl:text-[4.5rem] font-bold leading-tight sm:leading-[1.2] lg:leading-[4.75rem] 2xl:leading-[5.5rem]">
+                Africa's <span className="text-[#0096FF]">Own Chat &</span><br />
+                Marketplace App.
+              </h1>
+
+
           </div>
         </div>
       </section>
