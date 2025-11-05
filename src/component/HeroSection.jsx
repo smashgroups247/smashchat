@@ -90,7 +90,13 @@ export default function HeroSection() {
                 <img src="/africa-map.png" alt="" className="w-full h-full object-contain" />
               </div>
 
-                        </div>
+              {/* Subtitle */}
+              <p className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] 2xl:text-[2rem] leading-relaxed lg:leading-[2.625rem] 2xl:leading-[3rem] text-[#00212A] max-w-[35rem] xl:max-w-[40rem] 2xl:max-w-[50rem] relative z-10">
+                Connect, chat, and shop with your contacts, all in one place. Launching across Africa. Be first in line.
+              </p>
+
+             
+          </div>
         </div>
       </section>
     </div>
