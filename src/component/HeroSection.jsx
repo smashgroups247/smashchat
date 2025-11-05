@@ -10,7 +10,7 @@ export default function HeroSection() {
   };
 
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden">
+    <div className="min-h-screen bg-white">
       {/* Navbar - Fixed positioning */}
       <nav className="fixed top-[1.25rem] left-1/2 -translate-x-1/2 z-50 w-[95%] sm:w-[90%] max-w-[80rem] 2xl:max-w-[100rem] bg-[#F7FCFC] rounded-[1.5rem] shadow-[0_0.25rem_2.5rem_rgba(0,0,0,0.08)] px-[1.25rem] sm:px-[1.5rem] md:px-[2rem] lg:px-[2.5rem] py-[1rem] sm:py-[1.25rem]">
         <div className="flex items-center justify-between">
@@ -45,11 +45,11 @@ export default function HeroSection() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative pt-[7rem] sm:pt-[8rem] md:pt-[9rem] lg:pt-[10rem] pb-[3rem] sm:pb-[5rem] lg:pb-0 min-h-screen">
+      <section className="relative pt-[7rem] sm:pt-[8rem] md:pt-[9rem] lg:pt-[10rem] pb-0">
         <div className="max-w-[90rem] 2xl:max-w-[120rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem] 2xl:px-[8rem]">
-          <div className="grid lg:grid-cols-2 gap-[2rem] lg:gap-[3rem] xl:gap-[4rem] items-center">
+          <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-[2rem] lg:gap-[3rem] xl:gap-[4rem] items-center">
             {/* Left Content */}
-            <div className="relative z-10 space-y-[1.25rem] sm:space-y-[1.5rem] md:space-y-[2rem] lg:space-y-[2.5rem]">
+            <div className="relative z-10 space-y-[1.25rem] sm:space-y-[1.5rem] md:space-y-[2rem] lg:space-y-[2.5rem] pb-[3rem] sm:pb-[4rem] lg:pb-0">
               {/* Stars Decoration - Desktop (4 stars in rhombus) */}
               <div className="absolute top-[20rem] xl:top-[23rem] -left-[4rem] xl:-left-[6rem] w-[5rem] h-[5.5rem] xl:w-[6.088rem] xl:h-[6.801rem] hidden lg:block">
                 {/* Top Star */}
@@ -62,18 +62,6 @@ export default function HeroSection() {
                 <img src="/star.png" alt="" className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1.25rem] h-[1.25rem]" />
               </div>
 
-              {/* Stars Decoration - Mobile (beside curved background top-right) */}
-              <div className="absolute right-[0.5rem] top-[-1rem] w-[3rem] h-[3.5rem] lg:hidden z-30">
-                {/* Top Star */}
-                <img src="/star.png" alt="" className="absolute top-0 left-1/2 -translate-x-1/2 w-[0.875rem] h-[0.875rem]" />
-                {/* Left Star */}
-                <img src="/star.png" alt="" className="absolute top-1/2 left-0 -translate-y-1/2 w-[0.875rem] h-[0.875rem]" />
-                {/* Right Star */}
-                <img src="/star.png" alt="" className="absolute top-1/2 right-0 -translate-y-1/2 w-[0.875rem] h-[0.875rem]" />
-                {/* Bottom Star */}
-                <img src="/star.png" alt="" className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[0.875rem] h-[0.875rem]" />
-              </div>
-
               {/* Badge */}
               <div className="inline-flex items-center gap-[0.5rem] bg-[#0096FF] text-white px-[1rem] sm:px-[1.25rem] py-[0.625rem] sm:py-[0.75rem] rounded-full shadow-[0_0.25rem_0.5rem_rgba(20,27,52,0.04)] text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.5rem]">
                 Connect • Chat • Shop
@@ -81,12 +69,12 @@ export default function HeroSection() {
 
               {/* Main Heading */}
               <h1 className="text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] xl:text-[4rem] 2xl:text-[4.5rem] font-bold leading-tight sm:leading-[1.2] lg:leading-[4.75rem] 2xl:leading-[5.5rem]">
-                Africa's <span className="text-[#0096FF]">Own Chat &</span><br />
+                Africa's <span className="text-[#0096FF]">Own Chat &<br /></span>
                 Marketplace App.
               </h1>
 
               {/* Africa Map Background */}
-              <div className="absolute hidden lg:block left-[6rem] xl:left-[8rem] 2xl:left-[12rem] top-[14rem] xl:top-[16rem] 2xl:top-[18rem] w-[20rem] xl:w-[29rem] 2xl:w-[35rem] h-[17rem] xl:h-[24.75rem] 2xl:h-[30rem] opacity-20 pointer-events-none z-0">
+              <div className="absolute hidden lg:block left-[6rem] xl:left-[12rem] 2xl:left-[12rem] top-[14rem] xl:top-[16rem] 2xl:top-[18rem] w-[20rem] xl:w-[29rem] 2xl:w-[35rem] h-[17rem] xl:h-[24.75rem] 2xl:h-[30rem] opacity-20 pointer-events-none z-0">
                 <img src="/africa-map.png" alt="" className="w-full h-full object-contain" />
               </div>
 
@@ -103,23 +91,35 @@ export default function HeroSection() {
             </div>
 
             {/* Right Side - Image Area */}
-            <div className="relative lg:absolute lg:right-0 lg:top-0 lg:w-[48%] xl:w-[43.375rem] 2xl:w-[55rem] h-[35rem] sm:h-[45rem] md:h-[50rem] lg:h-full lg:min-h-screen">
-              {/* Background Shape */}
-              <div className="absolute top-0 right-0 w-full h-full bg-[#E7F4F6] rounded-bl-[4rem] sm:rounded-bl-[5rem] md:rounded-bl-[6rem] lg:rounded-bl-[7.4375rem]"></div>
+            <div className="relative w-full h-[35rem] sm:h-[45rem] md:h-[50rem] lg:absolute lg:right-0 lg:top-0 lg:w-[48%] xl:w-[43.375rem] 2xl:w-[55rem] lg:h-full lg:min-h-[56.25rem]">
+              {/* Stars Decoration - Mobile & Tablet */}
+              <div className="absolute right-[1.5rem] top-[1rem] md:right-[42rem] md:top-[60rem] w-[3rem] h-[3.5rem] lg:hidden z-30">
+                {/* Top Star */}
+                <img src="/star.png" alt="" className="absolute top-0 left-1/2 -translate-x-1/2 w-[0.875rem] h-[0.875rem]" />
+                {/* Left Star */}
+                <img src="/star.png" alt="" className="absolute top-1/2 left-0 -translate-y-1/2 w-[0.875rem] h-[0.875rem]" />
+                {/* Right Star */}
+                <img src="/star.png" alt="" className="absolute top-1/2 right-0 -translate-y-1/2 w-[0.875rem] h-[0.875rem]" />
+                {/* Bottom Star */}
+                <img src="/star.png" alt="" className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[0.875rem] h-[0.875rem]" />
+              </div>
 
-              {/* People Image - Much Larger, touching bottom */}
-              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-[2rem] xl:left-[3rem] 2xl:left-[4rem] w-[22rem] sm:w-[30rem] md:w-[35rem] lg:w-[40rem] xl:w-[37.5rem] 2xl:w-[48rem] h-[28rem] sm:h-[36rem] md:h-[42rem] lg:h-[48rem] xl:h-[50rem] 2xl:h-[60rem]">
+              {/* Background Shape */}
+              <div className="absolute top-0 right-0 md:-right-[3.1875rem] lg:right-0 w-full h-full bg-[#E7F4F6] rounded-bl-[4rem] sm:rounded-bl-[5rem] md:rounded-bl-[6rem] lg:rounded-bl-[7.4375rem]"></div>
+
+              {/* People Image */}
+              <div className="absolute bottom-0 left-1/2 -translate-x-1/2 lg:translate-x-0 lg:-left-[1rem] xl:-left-[0.5rem] 2xl:left-[1rem] w-[22rem] sm:w-[30rem] md:w-[35rem] lg:w-[40rem] xl:w-[37.5rem] 2xl:w-[48rem] h-[28rem] sm:h-[36rem] md:h-[42rem] lg:h-[48rem] xl:h-[50rem] 2xl:h-[60rem]">
                 <img src="/hero-people.png" alt="People using SmashChat" className="w-full h-full object-cover object-top" />
               </div>
 
               {/* Shop with friends card */}
-              <div className="absolute bottom-[4rem] sm:bottom-[5rem] md:bottom-[6rem] lg:bottom-[8rem] xl:bottom-[10rem] 2xl:bottom-[12rem] left-[1rem] sm:left-[2rem] md:left-0 lg:-left-[3rem] xl:-left-[5rem] 2xl:-left-[6rem] bg-white rounded-full shadow-[0.25rem_0.25rem_3.625rem_rgba(0,0,0,0.12)] px-[1.25rem] sm:px-[1.5rem] md:px-[1.6875rem] py-[1rem] sm:py-[1.25rem] md:py-[1.5rem] flex items-center gap-[0.625rem] sm:gap-[0.75rem] md:gap-[1rem] z-20">
+              <div className="absolute bottom-[4rem] sm:bottom-[5rem] md:bottom-[6rem] lg:bottom-[8rem] xl:bottom-[10rem] 2xl:bottom-[12rem] left-[-0.6rem] sm:left-[2rem] md:left-[-2rem] lg:-left-[3rem] xl:-left-[5rem] 2xl:-left-[6rem] bg-white rounded-full shadow-[0.25rem_0.25rem_3.625rem_rgba(0,0,0,0.12)] px-[1.25rem] sm:px-[1.5rem] md:px-[1.6875rem] py-[1rem] sm:py-[1.25rem] md:py-[1.5rem] flex items-center gap-[0.625rem] sm:gap-[0.75rem] md:gap-[1rem] z-20">
                 <img src="/shop-icon.svg" alt="" className="w-[1.25rem] h-[1.25rem] sm:w-[1.5rem] sm:h-[1.5rem] md:w-[1.75rem] md:h-[1.75rem]" />
                 <span className="text-[#00212A] text-[0.75rem] sm:text-[0.875rem] md:text-[1rem] font-medium whitespace-nowrap">Shop with friends</span>
               </div>
 
-              {/* Chat with friends card - Repositioned for mobile inside curved area */}
-              <div className="absolute top-[2rem] sm:top-[3rem] md:top-[4rem] lg:top-[6rem] xl:top-[8rem] 2xl:top-[10rem] right-[1rem] sm:right-[1.5rem] md:right-[2rem] lg:right-[2rem] xl:right-[3rem] 2xl:right-[4rem] bg-white rounded-full shadow-[0.25rem_0.25rem_3.625rem_rgba(0,0,0,0.12)] px-[1.25rem] sm:px-[1.5rem] md:px-[1.6875rem] py-[1rem] sm:py-[1.25rem] md:py-[1.5rem] flex items-center gap-[0.625rem] sm:gap-[0.75rem] md:gap-[1rem] z-20">
+              {/* Chat with friends card */}
+              <div className="absolute top-[2rem] sm:top-[3rem] md:top-[4rem] lg:top-[12rem] xl:top-[12rem] 2xl:top-[10rem] right-[1rem] sm:right-[1.5rem] md:right-[2rem] lg:right-[2rem] xl:right-[3rem] 2xl:right-[4rem] bg-white rounded-full shadow-[0.25rem_0.25rem_3.625rem_rgba(0,0,0,0.12)] px-[1.25rem] sm:px-[1.5rem] md:px-[1.6875rem] py-[1rem] sm:py-[1.25rem] md:py-[1.5rem] flex items-center gap-[0.625rem] sm:gap-[0.75rem] md:gap-[1rem] z-20">
                 <img src="/chat-icon.svg" alt="" className="w-[1.25rem] h-[1.25rem] sm:w-[1.5rem] sm:h-[1.5rem] md:w-[1.75rem] md:h-[1.75rem]" />
                 <span className="text-[#00212A] text-[0.75rem] sm:text-[0.875rem] md:text-[1rem] font-medium whitespace-nowrap">Chat with friends</span>
               </div>
