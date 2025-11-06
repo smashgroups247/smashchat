@@ -117,7 +117,18 @@ export default function WhySmashChatSection() {
                   <span className="text-[#00212A] text-[0.625rem] font-normal leading-[0.625rem] whitespace-nowrap">Chat</span>
                 </div>
 
-             
+                {/* Shop Card - BOTTOM RIGHT */}
+                <div 
+                  className="absolute bg-white rounded-[1.25rem] px-[0.75rem] py-[0.375rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.025rem] border-[#0096FF] z-10"
+                  style={{
+                    bottom: '2rem',
+                    right: '0.5rem',
+                    transform: 'rotate(-13.8deg)',
+                    width: 'fit-content'
+                  }}
+                >
+                  <span className="text-[#00212A] text-[0.625rem] font-normal leading-[0.625rem] whitespace-nowrap">Shop</span>
+                </div>
               </div>
 
          
