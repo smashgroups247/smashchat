@@ -53,9 +53,9 @@ export default function WhySmashChatSection() {
                 <div 
                   className="absolute bg-white rounded-[1.25rem] px-[1.25rem] py-[0.75rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.05rem] border-[#0096FF] z-10"
                   style={{
-                    top: '-2rem',
-                    left: '3rem',
-                    transform: 'rotate(8.76deg)',
+                    top: '-13rem',
+                    left: '12rem',
+                    transform: 'rotate(-11.24deg)',
                     width: 'fit-content'
                   }}
                 >
@@ -66,9 +66,9 @@ export default function WhySmashChatSection() {
                 <div 
                   className="absolute bg-white rounded-[1.25rem] px-[1.25rem] py-[0.75rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.05rem] border-[#0096FF] z-10"
                   style={{
-                    top: '2.5rem',
-                    left: '50%',
-                    transform: 'translateX(-20%) rotate(5.86deg)',
+                    top: '-1.5rem',
+                    left: '97%',
+                    transform: 'translateX(-20%) rotate(-13.4deg)',
                     width: 'fit-content'
                   }}
                 >
@@ -79,9 +79,9 @@ export default function WhySmashChatSection() {
                 <div 
                   className="absolute bg-white rounded-[1.25rem] px-[1.25rem] py-[0.75rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.05rem] border-[#0096FF] z-10"
                   style={{
-                    top: '5rem',
-                    right: '-3rem',
-                    transform: 'rotate(-13.8deg)',
+                    top: '-3rem',
+                    right: '-44rem',
+                    transform: 'rotate(16deg)',
                     width: 'fit-content'
                   }}
                 >
@@ -134,7 +134,7 @@ export default function WhySmashChatSection() {
               {/* Phone Mockups Container */}
               <div className="relative flex items-end justify-center lg:justify-start gap-[1.125rem] pt-[2rem] lg:pt-[4rem] pb-[2rem] lg:pb-0">
                 {/* First Mockup */}
-                <div className="relative z-20 w-[45%] sm:w-[12rem] md:w-[14rem] lg:w-[22.125rem]">
+                <div className="relative lg:bottom-[8.125rem] lg:left-[1.875rem] z-20 w-[45%] sm:w-[12rem] md:w-[14rem] lg:w-[22.125rem]">
                   <img 
                     src="/mockup-1.png" 
                     alt="SmashChat interface" 
@@ -143,7 +143,7 @@ export default function WhySmashChatSection() {
                 </div>
 
                 {/* Second Mockup */}
-                <div className="relative z-10 w-[48%] sm:w-[13rem] md:w-[15rem] lg:w-[21.3125rem] mb-[-0.5rem] sm:mb-[-1rem] lg:mb-[-1.5rem]">
+                <div className="relative z-10 w-[48%] sm:w-[13rem] md:w-[15rem] lg:w-[21.3125rem] mb-[-0.5rem] sm:mb-[-1rem] lg:mb-[-1.5rem] -lg:bottom-[2.5rem]">
                   <img 
                     src="/mockup-2.png" 
                     alt="SmashChat chat interface" 
