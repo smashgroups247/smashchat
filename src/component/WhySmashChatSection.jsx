@@ -131,7 +131,23 @@ export default function WhySmashChatSection() {
                 </div>
               </div>
 
-         
+              {/* Phone Mockups Container */}
+              <div className="relative flex items-end justify-center lg:justify-start gap-[1.125rem] pt-[2rem] lg:pt-[4rem] pb-[2rem] lg:pb-0">
+                {/* First Mockup */}
+                <div className="relative z-20 w-[45%] sm:w-[12rem] md:w-[14rem] lg:w-[22.125rem]">
+                  <img 
+                    src="/mockup-1.png" 
+                    alt="SmashChat interface" 
+                    className="w-full h-auto"
+                  />
+                </div>
+
+             
+              </div>
+            </div>
+          </div>
+
+        
         </div>
       </div>
     </section>
