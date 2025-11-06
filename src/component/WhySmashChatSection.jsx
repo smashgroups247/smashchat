@@ -142,12 +142,31 @@ export default function WhySmashChatSection() {
                   />
                 </div>
 
-             
+                {/* Second Mockup */}
+                <div className="relative z-10 w-[48%] sm:w-[13rem] md:w-[15rem] lg:w-[21.3125rem] mb-[-0.5rem] sm:mb-[-1rem] lg:mb-[-1.5rem]">
+                  <img 
+                    src="/mockup-2.png" 
+                    alt="SmashChat chat interface" 
+                    className="w-full h-auto"
+                  />
+                </div>
               </div>
             </div>
           </div>
 
-        
+          {/* Right Side - Features - Shows SECOND on mobile */}
+          <div className="space-y-[2rem] sm:space-y-[2.5rem] md:space-y-[3rem] lg:space-y-[1rem] order-2 w-full">
+            {features.map((feature, index) => (
+              <div key={index} className="space-y-[0.5rem] lg:space-y-[0.25rem]">
+                <h3 className="text-[1.25rem] sm:text-[1.5rem] md:text-[1.75rem] lg:text-[2rem] font-bold leading-[1.6] sm:leading-[1.5] lg:leading-[4rem] text-[#00212A]">
+                  {feature.title}
+                </h3>
+                <p className="text-[0.875rem] sm:text-[1rem] md:text-[1.125rem] lg:text-[1.5rem] font-normal leading-[1.4] sm:leading-[1.5] lg:leading-[2.25rem] text-[#00212A]">
+                  {feature.description}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
