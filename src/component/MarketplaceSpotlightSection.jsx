@@ -4,7 +4,7 @@ export default function MarketplaceSpotlightSection() {
   return (
     <section className="relative bg-white py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
       {/* Background Image */}
-      <div className="absolute top-0 right-0 w-[40rem] h-[40rem] sm:w-[50rem] sm:h-[50rem] lg:w-[63.3125rem] lg:h-[63.3125rem] pointer-events-none opacity-100 z-0 left-[-20%] max-[424px]:left-[-30%] lg:left-[-5.5rem]">
+      <div className="absolute top-0 right-0 w-[40rem] h-[40rem] sm:w-[50rem] sm:h-[50rem] lg:w-[63.3125rem] lg:h-[63.3125rem] pointer-events-none opacity-100 z-0 left-[-20%] max-[424px]:left-[-30%] md:left-[-7%] lg:left-[-5.5rem] 2xl:left-[40rem]">
         <img 
           src="/marketplace-bg.png" 
           alt="" 
@@ -39,7 +39,7 @@ export default function MarketplaceSpotlightSection() {
           </div>
 
           {/* Right Side - Content - Shows SECOND on mobile */}
-          <div className="relative space-y-[1.5rem] sm:space-y-[2rem] lg:space-y-[2rem] order-2 w-full">
+          <div className="pt-[6.25rem] md:pt-[15rem] lg:pt-0 relative space-y-[1.5rem] sm:space-y-[2rem] lg:space-y-[2rem] order-2 w-full">
             {/* Heading */}
             <h2 className="text-[1.75rem] sm:text-[2.25rem] md:text-[2.75rem] lg:text-[3rem] xl:text-[3.375rem] font-bold leading-[2.25rem] sm:leading-[2.75rem] md:leading-[3.25rem] lg:leading-[3.75rem] xl:leading-[4rem] text-center lg:text-left text-[#00212A]">
               Marketplace <span className="text-[#0096FF]">Spotlight</span>
