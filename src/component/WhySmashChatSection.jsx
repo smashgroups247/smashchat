@@ -30,16 +30,16 @@ export default function WhySmashChatSection() {
 
         {/* Curved Lines - Desktop */}
         <div className="hidden lg:block absolute left-0 top-[3rem] pointer-events-none">
-          <img src="/curved-line-1.png" alt="" className="absolute" style={{ top: '0rem', left: '0rem' }} />
-          <img src="/curved-line-2.png" alt="" className="absolute" style={{ top: '0rem', left: '0rem' }} />
-          <img src="/curved-line-3.png" alt="" className="absolute" style={{ top: '0rem', left: '0rem' }} />
+          <img src="/curved-line-1.png" alt="" className="absolute top-0 left-0" />
+          <img src="/curved-line-2.png" alt="" className="absolute top-0 left-0" />
+          <img src="/curved-line-3.png" alt="" className="absolute top-0 left-0" />
         </div>
 
         {/* Curved Lines - Mobile */}
         <div className="lg:hidden absolute left-0 top-[2rem] pointer-events-none">
-          <img src="/curved-line-mobile-1.png" alt="" className="absolute" style={{ top: '0rem', left: '0rem' }} />
-          <img src="/curved-line-mobile-2.png" alt="" className="absolute" style={{ top: '0rem', left: '0rem' }} />
-          <img src="/curved-line-mobile-3.png" alt="" className="absolute" style={{ top: '0rem', left: '0rem' }} />
+          <img src="/curved-line-mobile-1.png" alt="" className="absolute top-0 left-0" />
+          <img src="/curved-line-mobile-2.png" alt="" className="absolute top-0 left-0" />
+          <img src="/curved-line-mobile-3.png" alt="" className="absolute top-0 left-0" />
         </div>
 
         {/* Content Grid */}
@@ -50,41 +50,18 @@ export default function WhySmashChatSection() {
               {/* Decorative Cards - Desktop */}
               <div className="hidden lg:block">
                 {/* Connect Card - LEFT side */}
-                <div 
-                  className="absolute bg-white rounded-[1.25rem] px-[1.25rem] py-[0.75rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.05rem] border-[#0096FF] z-10"
-                  style={{
-                    top: '-13rem',
-                    left: '12rem',
-                    transform: 'rotate(-11.24deg)',
-                    width: 'fit-content'
-                  }}
-                >
+                <div className="absolute bg-white rounded-[1.25rem] px-[1.25rem] py-[0.75rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.05rem] border-[#0096FF] z-10 top-[-2rem] left-[3rem] lg:top-[-19rem] lg:left-[2rem] xl:top-[-13rem] xl:left-[12rem] 2xl:top-[-12rem] md:top-[-10.5rem] md:left-[-3.5rem] 2xl:left-[11rem] [transform:rotate(-11.24deg)]">
                   <span className="text-[#00212A] text-[1.125rem] font-normal leading-[1.125rem] whitespace-nowrap">Connect</span>
                 </div>
 
                 {/* Chat Card - MIDDLE upper area */}
-                <div 
-                  className="absolute bg-white rounded-[1.25rem] px-[1.25rem] py-[0.75rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.05rem] border-[#0096FF] z-10"
-                  style={{
-                    top: '-1.5rem',
-                    left: '97%',
-                    transform: 'translateX(-20%) rotate(-13.4deg)',
-                    width: 'fit-content'
-                  }}
-                >
+                <div className="absolute bg-white rounded-[1.25rem] px-[1.25rem] py-[0.75rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.05rem] border-[#0096FF] z-10 top-[2.5rem] left-[40%] lg:top-[-10rem] lg:left-[93%] xl:top-[-1.5rem] xl:left-[97%] 2xl:top-[-2.5rem] 2xl:left-[100%] [transform:translateX(-20%)_rotate(-13.4deg)]">
                   <span className="text-[#00212A] text-[1.125rem] font-normal leading-[1.125rem] whitespace-nowrap">Chat</span>
                 </div>
 
                 {/* Shop Card - RIGHT side */}
-                <div 
-                  className="absolute bg-white rounded-[1.25rem] px-[1.25rem] py-[0.75rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.05rem] border-[#0096FF] z-10"
-                  style={{
-                    top: '-3rem',
-                    right: '-44rem',
-                    transform: 'rotate(16deg)',
-                    width: 'fit-content'
-                  }}
-                >
+                            <div className="absolute bg-white rounded-[1.25rem] px-[1.25rem] py-[0.75rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.05rem] border-[#0096FF] z-10 top-[5rem] right-[-3rem] lg:top-[-12rem] lg:right-[-30rem] xl:top-[-3rem] xl:right-[-44rem] 2xl:top-[-3rem] 2xl:right-[-28rem] [transform:rotate(-13.8deg)]">
+
                   <span className="text-[#00212A] text-[1.125rem] font-normal leading-[1.125rem] whitespace-nowrap">Shop</span>
                 </div>
               </div>
@@ -92,41 +69,17 @@ export default function WhySmashChatSection() {
               {/* Decorative Cards - Mobile */}
               <div className="lg:hidden">
                 {/* Connect Card - LEFT */}
-                <div 
-                  className="absolute bg-white rounded-[1.25rem] px-[0.75rem] py-[0.375rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.025rem] border-[#0096FF] z-10"
-                  style={{
-                    top: '-0.5rem',
-                    left: '-0.5rem',
-                    transform: 'rotate(8.76deg)',
-                    width: 'fit-content'
-                  }}
-                >
+                <div className="absolute bg-white rounded-[1.25rem] px-[0.75rem] py-[0.375rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.025rem] border-[#0096FF] z-10 top-[-7.5rem] left-[-0.5rem] [transform:rotate(-11.24deg)] md:top-[-9.5rem] -xl:top-[11rem] xl:left-[12rem]">
                   <span className="text-[#00212A] text-[0.625rem] font-normal leading-[0.625rem] whitespace-nowrap">Connect</span>
                 </div>
 
                 {/* Chat Card - MIDDLE */}
-                <div 
-                  className="absolute bg-white rounded-[1.25rem] px-[0.75rem] py-[0.375rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.025rem] border-[#0096FF] z-10"
-                  style={{
-                    top: '6rem',
-                    left: '40%',
-                    transform: 'translateX(-50%) rotate(5.86deg)',
-                    width: 'fit-content'
-                  }}
-                >
+                <div className="absolute bg-white rounded-[1.25rem] px-[0.75rem] py-[0.375rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.025rem] border-[#0096FF] z-10 top-[1rem] left-[60%] [transform:translateX(-50%)_rotate(5.86deg)]">
                   <span className="text-[#00212A] text-[0.625rem] font-normal leading-[0.625rem] whitespace-nowrap">Chat</span>
                 </div>
 
                 {/* Shop Card - BOTTOM RIGHT */}
-                <div 
-                  className="absolute bg-white rounded-[1.25rem] px-[0.75rem] py-[0.375rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.025rem] border-[#0096FF] z-10"
-                  style={{
-                    bottom: '2rem',
-                    right: '0.5rem',
-                    transform: 'rotate(-13.8deg)',
-                    width: 'fit-content'
-                  }}
-                >
+                <div className="absolute bg-white rounded-[1.25rem] px-[0.75rem] py-[0.375rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.025rem] border-[#0096FF] z-10 bottom-[-3rem] right-[0.5rem] [transform:rotate(22deg)]">
                   <span className="text-[#00212A] text-[0.625rem] font-normal leading-[0.625rem] whitespace-nowrap">Shop</span>
                 </div>
               </div>
@@ -134,7 +87,7 @@ export default function WhySmashChatSection() {
               {/* Phone Mockups Container */}
               <div className="relative flex items-end justify-center lg:justify-start gap-[1.125rem] pt-[2rem] lg:pt-[4rem] pb-[2rem] lg:pb-0">
                 {/* First Mockup */}
-                <div className="relative lg:bottom-[8.125rem] lg:left-[1.875rem] z-20 w-[45%] sm:w-[12rem] md:w-[14rem] lg:w-[22.125rem]">
+                <div className="relative bottom-[8.125rem] left-[1.875rem] z-20 w-[45%] sm:w-[12rem] md:w-[14rem] lg:w-[22.125rem]">
                   <img 
                     src="/mockup-1.png" 
                     alt="SmashChat interface" 
@@ -143,7 +96,7 @@ export default function WhySmashChatSection() {
                 </div>
 
                 {/* Second Mockup */}
-                <div className="relative z-10 w-[48%] sm:w-[13rem] md:w-[15rem] lg:w-[21.3125rem] mb-[-0.5rem] sm:mb-[-1rem] lg:mb-[-1.5rem] -lg:bottom-[2.5rem]">
+                <div className="relative z-10 w-[48%] sm:w-[13rem] md:w-[15rem] lg:w-[21.3125rem] mb-[-0.5rem] sm:mb-[-1rem] lg:mb-[-1.5rem] bottom-[-2.5rem]">
                   <img 
                     src="/mockup-2.png" 
                     alt="SmashChat chat interface" 
