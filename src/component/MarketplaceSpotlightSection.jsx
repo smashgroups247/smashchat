@@ -38,6 +38,14 @@ export default function MarketplaceSpotlightSection() {
             </div>
           </div>
 
+          {/* Right Side - Content - Shows SECOND on mobile */}
+          <div className="relative space-y-[1.5rem] sm:space-y-[2rem] lg:space-y-[2rem] order-2 w-full">
+            {/* Heading */}
+            <h2 className="text-[1.75rem] sm:text-[2.25rem] md:text-[2.75rem] lg:text-[3rem] xl:text-[3.375rem] font-bold leading-[2.25rem] sm:leading-[2.75rem] md:leading-[3.25rem] lg:leading-[3.75rem] xl:leading-[4rem] text-center lg:text-left text-[#00212A]">
+              Marketplace <span className="text-[#0096FF]">Spotlight</span>
+            </h2>
+
+          </div>
         </div>
       </div>
     </section>
