@@ -89,6 +89,24 @@ export default function WhySmashChatSection() {
                 </div>
               </div>
 
+              {/* Decorative Cards - Mobile */}
+              <div className="lg:hidden">
+                {/* Connect Card - LEFT */}
+                <div 
+                  className="absolute bg-white rounded-[1.25rem] px-[0.75rem] py-[0.375rem] shadow-[0_0.25rem_0.5rem_rgba(0,150,255,0.08)] border-[0.025rem] border-[#0096FF] z-10"
+                  style={{
+                    top: '-0.5rem',
+                    left: '-0.5rem',
+                    transform: 'rotate(8.76deg)',
+                    width: 'fit-content'
+                  }}
+                >
+                  <span className="text-[#00212A] text-[0.625rem] font-normal leading-[0.625rem] whitespace-nowrap">Connect</span>
+                </div>
+
+                          </div>
+
+         
         </div>
       </div>
     </section>
