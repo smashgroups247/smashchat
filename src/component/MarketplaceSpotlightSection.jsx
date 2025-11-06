@@ -45,6 +45,21 @@ export default function MarketplaceSpotlightSection() {
               Marketplace <span className="text-[#0096FF]">Spotlight</span>
             </h2>
 
+            {/* Paragraph */}
+            <p className="text-[0.875rem] sm:text-[1rem] md:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-normal leading-[1.5] sm:leading-[1.6] lg:leading-[1.5] xl:leading-[2.625rem] text-center lg:text-left text-[#00212A] max-w-[35rem] lg:max-w-[40rem] mx-auto lg:mx-0">
+              No more jumping apps. On Smashchat you can message, discover products, and pay all within your chat window. Imagine this: you message a vendor, tap a product card that shows in the chat, preview it, pay instantly. That's it.
+            </p>
+
+            {/* Button */}
+            <div className="flex justify-center lg:justify-start">
+              <a
+                href="#"
+                className="inline-flex items-center justify-center gap-[0.5rem] bg-[#0096FF] text-white font-bold px-[2rem] py-[1rem] rounded-[1.25rem] hover:bg-[#0085e6] transition-colors text-[1rem] leading-[1.5rem] whitespace-nowrap shadow-sm"
+              >
+                <img src="/download-icon.svg" alt="" className="w-[1rem] h-[1rem]" />
+                Download App
+              </a>
+            </div>
           </div>
         </div>
       </div>
