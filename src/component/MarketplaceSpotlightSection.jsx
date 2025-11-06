@@ -27,6 +27,17 @@ export default function MarketplaceSpotlightSection() {
                 />
               </div>
 
+              {/* Top-right phone (front) */}
+              <div className="absolute z-20 w-[70%] sm:w-[75%] lg:w-[19.6875rem] top-0 right-0 sm:right-[0.5rem] lg:right-0">
+                <img 
+                  src="/marketplace-phone-right.png" 
+                  alt="Marketplace interface" 
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
