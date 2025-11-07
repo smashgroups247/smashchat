@@ -56,6 +56,13 @@ export default function TestimonialsSection() {
           What early <span className="text-[#0096FF]">users are</span> saying
         </h2>
 
+        {/* Desktop Grid - Hidden on mobile */}
+        <div className="hidden lg:grid lg:grid-cols-2 xl:grid-cols-3 gap-[1.5rem] mb-[3rem] lg:mb-[4rem]">
+          {testimonials.map((testimonial, index) => (
+            <TestimonialCard key={index} testimonial={testimonial} />
+          ))}
+        </div>
+
       </div>
     </section>
   );
