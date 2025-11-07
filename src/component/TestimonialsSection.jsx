@@ -94,7 +94,10 @@ export default function TestimonialsSection() {
           </div>
         </div>
 
-       
+        {/* Bottom Text */}
+        <p className="text-[1rem] sm:text-[1.25rem] md:text-[1.5rem] lg:text-[1.75rem] font-normal leading-[1.5] lg:leading-[2.625rem] text-center text-[#00212A] max-w-[45rem] mx-auto">
+          Join our growing community across Nigeria, Ghana, Kenya and beyond.
+        </p>
       </div>
     </section>
   );
