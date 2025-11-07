@@ -79,14 +79,14 @@ export default function TestimonialsSection() {
           <div className="flex items-center justify-center gap-[1rem] mt-[2rem]">
             <button
               onClick={scrollPrev}
-              className="w-[3rem] h-[3rem] rounded-full border-[0.125rem] border-[#0096FF] bg-[#00212A] flex items-center justify-center hover:bg-[#0096FF] transition-colors"
+              className="w-[3rem] h-[3rem] rounded-full border-[0.125rem] border-[#0096FF] bg-white flex items-center justify-center hover:bg-[#0096FF] transition-colors"
               aria-label="Previous testimonial"
             >
               <img src="/arrow-left-icon.svg" alt="" className="w-[0.75rem] h-[0.75rem]" />
             </button>
             <button
               onClick={scrollNext}
-              className="w-[3rem] h-[3rem] rounded-full border-[0.125rem] border-[#0096FF] bg-[#00212A] flex items-center justify-center hover:bg-[#0096FF] transition-colors"
+              className="w-[3rem] h-[3rem] rounded-full border-[0.125rem] border-[#0096FF] bg-white flex items-center justify-center hover:bg-[#0096FF] transition-colors"
               aria-label="Next testimonial"
             >
               <img src="/arrow-right-icon.svg" alt="" className="w-[0.75rem] h-[0.75rem]" />
