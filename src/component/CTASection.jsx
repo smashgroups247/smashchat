@@ -98,7 +98,23 @@ export default function CTASection() {
               Chat with friends. Support local sellers. Grow together. All in one app made for how Africa connects.
             </p>
 
-         
+            {/* App Store Buttons */}
+            <div className="flex flex-wrap gap-[0.75rem] sm:gap-[1rem] justify-center lg:justify-start">
+              <a href="#" className="block">
+                <img 
+                  src="/app-store-button.png" 
+                  alt="Download on App Store" 
+                  className="w-[7rem] sm:w-[8rem] md:w-[9rem] lg:w-[8rem] xl:w-[9rem] h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                />
+              </a>
+              <a href="#" className="block">
+                <img 
+                  src="/google-play-button.png" 
+                  alt="Get it on Google Play" 
+                  className="w-[7rem] sm:w-[8rem] md:w-[9rem] lg:w-[8rem] xl:w-[9rem] h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
