@@ -1,10 +1,11 @@
-import React, { useCallback } from 'react';
-import useEmblaCarousel from 'embla-carousel-react';
+import React, { useCallback } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import StarsDecoration from "./StarsDecoration.jsx";
 
 export default function TestimonialsSection() {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ 
+  const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
-    align: 'center'
+    align: "center",
   });
 
   const scrollPrev = useCallback(() => {
@@ -19,39 +20,44 @@ export default function TestimonialsSection() {
     {
       text: "I didn't think chat could bring real customers. Now, I can't imagine business without it.",
       name: "Kevin Hart",
-      avatar: "/testimonial-avatar-1.png"
+      avatar: "/testimonial-avatar-1.png",
     },
     {
       text: "It felt less like shopping and more like chatting with a friend and gets what I need.",
       name: "Quincy Agu",
-      avatar: "/testimonial-avatar-2.png"
+      avatar: "/testimonial-avatar-2.png",
     },
     {
       text: "I used to chase customers. Now they reach out to me directly.",
       name: "Olamide Ayo",
-      avatar: "/testimonial-avatar-3.png"
+      avatar: "/testimonial-avatar-3.png",
     },
     {
       text: "I didn't think chat could bring real customers. Now, I can't imagine business without it.",
       name: "Kevin Hart",
-      avatar: "/testimonial-avatar-4.png"
+      avatar: "/testimonial-avatar-4.png",
     },
     {
       text: "People trust me more now because we talk first before they buy.",
       name: "Noah Obinna",
-      avatar: "/testimonial-avatar-5.png"
+      avatar: "/testimonial-avatar-5.png",
     },
-    
+
     {
       text: "Selling through chat used to sound impossible. Now it’s my best channel..",
       name: "Charlie Brown",
-      avatar: "/testimonial-avatar-6.png"
-    }
+      avatar: "/testimonial-avatar-6.png",
+    },
   ];
 
   return (
     <section className="relative bg-white py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
       <div className="max-w-[90rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem]">
+        {/* Stars Decoration - Desktop */}
+        <StarsDecoration className="hidden lg:block top-[54.0625rem] right-[8.25rem] w-[6.088rem] h-[6.801rem] lg:top-[0rem] lg:right-[58.25rem] xl:top-[0rem] xl:right-[84.25rem] 2xl:right-[120.55rem] 2xl:top-[1rem]" />
+
+        {/* Stars Decoration - Mobile */}
+        <StarsDecoration className="top-[0rem] right-[24rem] w-[3rem] h-[3.5rem] max-[424px]:top-[0rem] max-[424px]:right-[20rem] md:right-[44rem] md:top-[1rem] lg:hidden" />
         {/* Heading */}
         <h2 className="text-[1.75rem] sm:text-[2.25rem] md:text-[2.75rem] lg:text-[3rem] xl:text-[3.375rem] font-bold leading-[2.25rem] sm:leading-[2.75rem] md:leading-[3.25rem] lg:leading-[3.75rem] xl:leading-[4rem] text-center text-[#00212A] mb-[2.5rem] sm:mb-[3rem] md:mb-[3.5rem] lg:mb-[4rem]">
           What early <span className="text-[#0096FF]">users are</span> saying
@@ -83,14 +89,22 @@ export default function TestimonialsSection() {
               className="w-[3rem] h-[3rem] rounded-full border-[0.125rem] border-[#0096FF] bg-white flex items-center justify-center hover:bg-[#0096FF] transition-colors"
               aria-label="Previous testimonial"
             >
-              <img src="/arrow-left-icon.svg" alt="" className="w-[0.75rem] h-[0.75rem]" />
+              <img
+                src="/arrow-left-icon.svg"
+                alt=""
+                className="w-[0.75rem] h-[0.75rem]"
+              />
             </button>
             <button
               onClick={scrollNext}
               className="w-[3rem] h-[3rem] rounded-full border-[0.125rem] border-[#0096FF] bg-white flex items-center justify-center hover:bg-[#0096FF] transition-colors"
               aria-label="Next testimonial"
             >
-              <img src="/arrow-right-icon.svg" alt="" className="w-[0.75rem] h-[0.75rem]" />
+              <img
+                src="/arrow-right-icon.svg"
+                alt=""
+                className="w-[0.75rem] h-[0.75rem]"
+              />
             </button>
           </div>
         </div>
@@ -119,8 +133,8 @@ function TestimonialCard({ testimonial }) {
       <div className="flex items-center gap-[1rem]">
         {/* Avatar Container */}
         <div className="w-[4.875rem] h-[4.875rem] rounded-full p-[0.25rem] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(243,243,243,0.1)] shadow-[0_0.25rem_0.5rem_rgba(20,27,52,0.08)]">
-          <img 
-            src={testimonial.avatar} 
+          <img
+            src={testimonial.avatar}
             alt={testimonial.name}
             className="w-[4.375rem] h-[4.375rem] rounded-full object-cover"
           />
@@ -131,16 +145,16 @@ function TestimonialCard({ testimonial }) {
           <h3 className="text-[1.25rem] font-bold leading-[1] text-[#0E0C24]">
             {testimonial.name}
           </h3>
-          
+
           {/* Stars */}
           <div className="flex gap-[0.25rem]">
             {[1, 2, 3, 4, 5].map((star) => (
-              <div 
+              <div
                 key={star}
                 className="w-[1.75rem] h-[1.75rem] rounded-full p-[0.25rem] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(243,243,243,0.1)] flex items-center justify-center"
               >
-                <img 
-                  src="/star-icon.svg" 
+                <img
+                  src="/star-icon.svg"
                   alt=""
                   className="w-[1.25rem] h-[1.25rem]"
                 />
