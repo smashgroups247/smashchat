@@ -29,7 +29,51 @@ const Footer = () => {
             </button>
           </div>
 
-       
+          {/* Columns 2-4: Navigation Sections */}
+          <div className="flex flex-col md:flex-row gap-8 md:gap-16 flex-1">
+            {/* Column 2: Company */}
+            <div className="flex flex-col gap-4">
+              <h3 className="text-[1.25rem] leading-tight font-bold text-[#00212A]">Company</h3>
+              <nav className="flex flex-col gap-3">
+                <a href="#about" className="text-[1.125rem] leading-tight text-[#00212A] hover:text-[#0096FF] transition-colors">
+                  About Us
+                </a>
+                <a href="#features" className="text-[1.125rem] leading-tight text-[#00212A] hover:text-[#0096FF] transition-colors">
+                  Features
+                </a>
+                <a href="#how-it-works" className="text-[1.125rem] leading-tight text-[#00212A] hover:text-[#0096FF] transition-colors">
+                  How It Works
+                </a>
+              </nav>
+            </div>
+
+            {/* Column 3: Get SmashChat */}
+            <div className="flex flex-col gap-4">
+              <h3 className="text-[1.25rem] leading-tight font-bold text-[#00212A]">Get SmashChat</h3>
+              <nav className="flex flex-col gap-3">
+                <a href="#windows" className="text-[1.125rem] leading-tight text-[#00212A] hover:text-[#0096FF] transition-colors">
+                  Windows
+                </a>
+                <a href="#mac" className="text-[1.125rem] leading-tight text-[#00212A] hover:text-[#0096FF] transition-colors">
+                  Mac
+                </a>
+                <a href="#android" className="text-[1.125rem] leading-tight text-[#00212A] hover:text-[#0096FF] transition-colors">
+                  Android
+                </a>
+              </nav>
+            </div>
+
+            {/* Column 4: Contact */}
+            <div className="flex flex-col gap-4">
+              <h3 className="text-[1.25rem] leading-tight font-bold text-[#00212A]">Contact</h3>
+              <a href="mailto:smashchat@gmail.com" className="text-[1.125rem] leading-tight text-[#00212A] hover:text-[#0096FF] transition-colors">
+                smashchat@gmail.com
+              </a>
+            </div>
+          </div>
+        </div>
+
+     
       </div>
     </footer>
   );
