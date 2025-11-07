@@ -125,7 +125,28 @@ function TestimonialCard({ testimonial }) {
           />
         </div>
 
-      
+        {/* Name and Stars */}
+        <div className="flex flex-col gap-[0.5rem]">
+          <h3 className="text-[1.25rem] font-bold leading-[1] text-[#0E0C24]">
+            {testimonial.name}
+          </h3>
+          
+          {/* Stars */}
+          <div className="flex gap-[0.25rem]">
+            {[1, 2, 3, 4, 5].map((star) => (
+              <div 
+                key={star}
+                className="w-[1.75rem] h-[1.75rem] rounded-full p-[0.25rem] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(243,243,243,0.1)] flex items-center justify-center"
+              >
+                <img 
+                  src="/star-icon.svg" 
+                  alt=""
+                  className="w-[1.25rem] h-[1.25rem]"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
