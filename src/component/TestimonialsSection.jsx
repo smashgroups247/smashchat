@@ -63,6 +63,19 @@ export default function TestimonialsSection() {
           ))}
         </div>
 
+        {/* Mobile Carousel - Hidden on desktop */}
+        <div className="lg:hidden mb-[2rem]">
+          <div className="overflow-hidden" ref={emblaRef}>
+            <div className="flex">
+              {testimonials.map((testimonial, index) => (
+                <div key={index} className="flex-[0_0_100%] min-w-0 px-[1rem]">
+                  <TestimonialCard testimonial={testimonial} />
+                </div>
+              ))}
+            </div>
+          </div>
+
+       
       </div>
     </section>
   );
