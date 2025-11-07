@@ -93,7 +93,12 @@ export default function CTASection() {
               Ready to chat, connect, and shop, all in one place?
             </h2>
 
-        
+            {/* Paragraph */}
+            <p className="text-[0.875rem] sm:text-[1rem] md:text-[1.125rem] lg:text-[1.25rem] xl:text-[1.5rem] font-normal leading-[1.5] sm:leading-[1.6] lg:leading-[1.5] xl:leading-[2.25rem] text-center lg:text-left text-[#00212A] max-w-[35rem] lg:max-w-[40rem] mx-auto lg:mx-0">
+              Chat with friends. Support local sellers. Grow together. All in one app made for how Africa connects.
+            </p>
+
+         
           </div>
         </div>
       </div>
