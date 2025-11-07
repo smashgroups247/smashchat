@@ -103,3 +103,15 @@ export default function TestimonialsSection() {
   );
 }
 
+function TestimonialCard({ testimonial }) {
+  return (
+    <div className="w-full h-auto lg:h-[14.3125rem] rounded-[2rem] border border-[#F7F5F5] p-[1.5rem] bg-gradient-to-b from-[#FFFFFF] to-[#F4F9FE] shadow-[0_0.25rem_0.75rem_rgba(20,27,52,0.04)] flex flex-col gap-[1.25rem]">
+      {/* Testimonial Text */}
+      <p className="text-[0.875rem] lg:text-[1.125rem] font-normal leading-[1.5] lg:leading-[1.95rem] text-[#0E0C24]">
+        {testimonial.text}
+      </p>
+
+    
+    </div>
+  );
+}
