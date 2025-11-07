@@ -76,7 +76,20 @@ const Footer = () => {
         {/* Horizontal Rule */}
         <hr className="my-8 border-t border-[#171717] opacity-10" style={{ height: '0px' }} />
 
-      
+        {/* Copyright Section */}
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+          <p className="text-[1.125rem] leading-tight text-[#00212A] opacity-80">
+            © {currentYear} SmashChat. All rights reserved.
+          </p>
+          <div className="flex flex-col md:flex-row gap-4 md:gap-6">
+            <a href="#privacy" className="text-[1.125rem] leading-tight text-[#00212A] opacity-80 hover:opacity-100 transition-opacity">
+              Privacy Policy
+            </a>
+            <a href="#terms" className="text-[1.125rem] leading-tight text-[#00212A] opacity-80 hover:opacity-100 transition-opacity">
+              Terms of Use
+            </a>
+          </div>
+        </div>
       </div>
     </footer>
   );
