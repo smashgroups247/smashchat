@@ -27,8 +27,8 @@ export default function TestimonialsSection() {
       avatar: "/testimonial-avatar-2.png"
     },
     {
-      text: "I used to dread shopping. Now, I chat with vendors directly.",
-      name: "Olamide Johnson",
+      text: "I used to chase customers. Now they reach out to me directly.",
+      name: "Olamide Ayo",
       avatar: "/testimonial-avatar-3.png"
     },
     {
@@ -43,7 +43,7 @@ export default function TestimonialsSection() {
     },
     
     {
-      text: "My shop chat used to sound impossible. Now it's my channel.",
+      text: "Selling through chat used to sound impossible. Now it’s my best channel..",
       name: "Charlie Brown",
       avatar: "/testimonial-avatar-6.png"
     }
