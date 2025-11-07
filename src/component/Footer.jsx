@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full bg-white py-8 md:py-12 px-4 md:px-8 overflow-x-hidden">
+    <footer className="w-full bg-white py-8 md:py-12 px-4 md:px-8 overflow-x-hidden font-[Helvetica,Arial,sans-serif]">
       <div className="max-w-[90rem] mx-auto w-full">
         {/* Main Footer Content */}
         <div className="flex flex-col lg:flex-row lg:gap-[18.375rem] md:gap-12 gap-8">
@@ -23,7 +23,7 @@ const Footer = () => {
             </p>
 
             {/* Download Button */}
-            <button className="flex items-center justify-center gap-2 w-full max-w-[15.5625rem] md:max-w-[11.75rem] h-[3.375rem] bg-[#0096FF] rounded-[1.25rem] px-6 py-4">
+            <button className="flex items-center justify-center gap-2 w-full max-w-[15.5625rem] md:max-w-[11.75rem] h-[3.375rem] bg-[#0096FF] rounded-[1.25rem] px-6 py-4 hover:bg-[#0085e6] transition-colors">
               <img src={downloadIcon} alt="Download" className="w-5 h-5 flex-shrink-0" />
               <span className="text-[1rem] leading-normal font-bold text-white whitespace-nowrap">Download App</span>
             </button>
@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
 
         {/* Horizontal Rule */}
-        <hr className="my-8 border-t border-[#171717] opacity-10" style={{ height: '0px' }} />
+        <hr className="my-8 border-t border-[#171717] opacity-10" />
 
         {/* Copyright Section */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 w-full">

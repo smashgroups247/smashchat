@@ -14,7 +14,7 @@ const App = () => {
       <MarketplaceSpotlightSection />
       <TestimonialsSection />
       <CTASection />
-      <Footer downloadIcon="/download-icon.svg" />
+      <Footer />
     </div>
   );
 };
