@@ -40,10 +40,10 @@ export default function MarketplaceSpotlightSection() {
           </div>
 
      {/* Stars Decoration - Desktop */}
-        <StarsDecoration className="hidden lg:block top-[54.0625rem] right-[8.25rem] w-[6.088rem] h-[6.801rem] md:top-[38rem] md:right-[0rem] lg:top-[0rem] lg:right-[3.25rem] xl:top-[1rem] xl:right-[4.25rem] 2xl:right-[1.55rem] 2xl:top-[3rem]" />
+        <StarsDecoration className="hidden lg:block top-[54.0625rem] right-[8.25rem] w-[6.088rem] h-[6.801rem] lg:top-[0rem] lg:right-[3.25rem] xl:top-[1rem] xl:right-[4.25rem] 2xl:right-[1.55rem] 2xl:top-[3rem]" />
 
         {/* Stars Decoration - Mobile */}
-        <StarsDecoration className="lg:hidden top-[23rem] right-[0rem] w-[3rem] h-[3.5rem]" />
+        <StarsDecoration className="top-[23rem] right-[0rem] w-[3rem] h-[3.5rem] md:right-[0rem] md:top-[38rem] lg:hidden" />
 
           {/* Right Side - Content - Shows SECOND on mobile */}
           <div className="pt-[6.25rem] md:pt-[15rem] lg:pt-0 relative space-y-[1.5rem] sm:space-y-[2rem] lg:space-y-[2rem] order-2 w-full">
