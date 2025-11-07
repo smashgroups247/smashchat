@@ -73,7 +73,10 @@ const Footer = () => {
           </div>
         </div>
 
-     
+        {/* Horizontal Rule */}
+        <hr className="my-8 border-t border-[#171717] opacity-10" style={{ height: '0px' }} />
+
+      
       </div>
     </footer>
   );
