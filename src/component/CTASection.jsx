@@ -3,7 +3,16 @@ import React from 'react';
 export default function CTASection() {
   return (
     <section className="relative bg-[#0096FF] py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
-      <div className="max-w-[90rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem]">
+      {/* Top-right decoration */}
+      <div className="absolute top-[-0.1875rem] right-0 w-[20rem] h-[10rem] sm:w-[25rem] sm:h-[12.5rem] lg:w-[30.75rem] lg:h-[15.5rem] pointer-events-none z-0">
+        <img 
+          src="/cta-decoration.png" 
+          alt="" 
+          className="w-full h-full object-contain"
+        />
+      </div>
+
+      <div className="max-w-[90rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem] relative z-10">
         {/* Content Grid */}
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-[3rem] lg:gap-[4rem] xl:gap-[5rem] items-center">
           {/* Right Side - Images - Shows FIRST on mobile */}
