@@ -4,6 +4,7 @@ import WhySmashChatSection from "./component/WhySmashChatSection.jsx";
 import MarketplaceSpotlightSection from "./component/MarketplaceSpotlightSection.jsx";
 import TestimonialsSection from "./component/TestimonialsSection.jsx";
 import CTASection from "./component/CTASection.jsx";
+import Footer from "./component/Footer.jsx";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <MarketplaceSpotlightSection />
       <TestimonialsSection />
       <CTASection />
+      <Footer downloadIcon="/download-icon.svg" />
     </div>
   );
 };
