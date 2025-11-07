@@ -114,7 +114,19 @@ function TestimonialCard({ testimonial }) {
       {/* Divider */}
       <div className="w-full h-[0.0625rem] bg-[#0E0C24] opacity-10"></div>
 
-   
+      {/* User Info */}
+      <div className="flex items-center gap-[1rem]">
+        {/* Avatar Container */}
+        <div className="w-[4.875rem] h-[4.875rem] rounded-full p-[0.25rem] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(243,243,243,0.1)] shadow-[0_0.25rem_0.5rem_rgba(20,27,52,0.08)]">
+          <img 
+            src={testimonial.avatar} 
+            alt={testimonial.name}
+            className="w-[4.375rem] h-[4.375rem] rounded-full object-cover"
+          />
+        </div>
+
+      
+      </div>
     </div>
   );
 }
