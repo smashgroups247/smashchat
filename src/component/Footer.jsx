@@ -5,10 +5,10 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full bg-white py-8 md:py-12 px-4 md:px-8">
-      <div className="max-w-[90rem] mx-auto">
+    <footer className="w-full bg-white py-8 md:py-12 px-4 md:px-8 overflow-x-hidden">
+      <div className="max-w-[90rem] mx-auto w-full">
         {/* Main Footer Content */}
-        <div className="flex flex-col md:flex-row md:gap-[18.375rem] gap-8">
+        <div className="flex flex-col lg:flex-row lg:gap-[18.375rem] md:gap-12 gap-8">
           {/* Column 1: Logo, Tagline, Download Button */}
           <div className="flex flex-col gap-6">
             {/* Logo */}
@@ -23,16 +23,16 @@ const Footer = () => {
             </p>
 
             {/* Download Button */}
-            <button className="flex items-center justify-center gap-2 w-[15.5625rem] md:w-[11.75rem] h-[3.375rem] bg-[#0096FF] rounded-[1.25rem] px-6 py-4">
-              <img src={downloadIcon} alt="Download" className="w-5 h-5" />
+            <button className="flex items-center justify-center gap-2 w-full max-w-[15.5625rem] md:max-w-[11.75rem] h-[3.375rem] bg-[#0096FF] rounded-[1.25rem] px-6 py-4">
+              <img src={downloadIcon} alt="Download" className="w-5 h-5 flex-shrink-0" />
               <span className="text-[1rem] leading-normal font-bold text-white whitespace-nowrap">Download App</span>
             </button>
           </div>
 
           {/* Columns 2-4: Navigation Sections */}
-          <div className="flex flex-col md:flex-row gap-8 md:gap-16 flex-1">
+          <div className="flex flex-col sm:flex-row sm:flex-wrap lg:flex-nowrap gap-8 md:gap-12 lg:gap-16 flex-1 w-full">
             {/* Column 2: Company */}
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 min-w-0">
               <h3 className="text-[1.25rem] leading-tight font-bold text-[#00212A]">Company</h3>
               <nav className="flex flex-col gap-3">
                 <a href="#about" className="text-[1.125rem] leading-tight text-[#00212A] hover:text-[#0096FF] transition-colors">
@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
 
             {/* Column 3: Get SmashChat */}
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 min-w-0">
               <h3 className="text-[1.25rem] leading-tight font-bold text-[#00212A]">Get SmashChat</h3>
               <nav className="flex flex-col gap-3">
                 <a href="#windows" className="text-[1.125rem] leading-tight text-[#00212A] hover:text-[#0096FF] transition-colors">
@@ -64,9 +64,9 @@ const Footer = () => {
             </div>
 
             {/* Column 4: Contact */}
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 min-w-0">
               <h3 className="text-[1.25rem] leading-tight font-bold text-[#00212A]">Contact</h3>
-              <a href="mailto:smashchat@gmail.com" className="text-[1.125rem] leading-tight text-[#00212A] hover:text-[#0096FF] transition-colors">
+              <a href="mailto:smashchat@gmail.com" className="text-[1.125rem] leading-tight text-[#00212A] hover:text-[#0096FF] transition-colors break-words">
                 smashchat@gmail.com
               </a>
             </div>
@@ -77,11 +77,11 @@ const Footer = () => {
         <hr className="my-8 border-t border-[#171717] opacity-10" style={{ height: '0px' }} />
 
         {/* Copyright Section */}
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 w-full">
           <p className="text-[1.125rem] leading-tight text-[#00212A] opacity-80">
             © {currentYear} SmashChat. All rights reserved.
           </p>
-          <div className="flex flex-col md:flex-row gap-4 md:gap-6">
+          <div className="flex flex-col sm:flex-row gap-4 md:gap-6">
             <a href="#privacy" className="text-[1.125rem] leading-tight text-[#00212A] opacity-80 hover:opacity-100 transition-opacity">
               Privacy Policy
             </a>
