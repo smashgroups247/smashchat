@@ -20,7 +20,16 @@ export default function CTASection() {
                   />
                 </div>
 
-           
+                {/* Top-center image (tall) */}
+                <div className="col-span-1 row-span-2 row-start-1">
+                  <img 
+                    src="/cta-user-2.png" 
+                    alt="SmashChat user" 
+                    className="w-full h-full object-cover rounded-[1rem]"
+                  />
+                </div>
+
+            
             </div>
           </div>
 
