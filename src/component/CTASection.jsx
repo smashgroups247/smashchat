@@ -86,7 +86,15 @@ export default function CTASection() {
             </div>
           </div>
 
+          {/* Left Side - Content - Shows SECOND on mobile */}
+          <div className="relative space-y-[1.5rem] sm:space-y-[2rem] lg:space-y-[2rem] order-2 lg:order-1 w-full">
+            {/* Heading */}
+            <h2 className="text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] lg:text-[2.25rem] xl:text-[2.5rem] font-bold leading-[1.8rem] sm:leading-[2.1rem] md:leading-[2.4rem] lg:leading-[2.7rem] xl:leading-[3rem] text-center lg:text-left text-[#00212A]">
+              Ready to chat, connect, and shop, all in one place?
+            </h2>
+
         
+          </div>
         </div>
       </div>
     </section>
