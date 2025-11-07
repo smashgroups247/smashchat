@@ -111,7 +111,10 @@ function TestimonialCard({ testimonial }) {
         {testimonial.text}
       </p>
 
-    
+      {/* Divider */}
+      <div className="w-full h-[0.0625rem] bg-[#0E0C24] opacity-10"></div>
+
+   
     </div>
   );
 }
