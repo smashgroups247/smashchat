@@ -28,7 +28,7 @@ export default function TestimonialsSection() {
     },
     {
       text: "I used to dread shopping. Now, I chat with vendors directly.",
-      name: "Olamide",
+      name: "Olamide Johnson",
       avatar: "/testimonial-avatar-3.png"
     },
     {
