@@ -32,8 +32,8 @@ export default function TestimonialsSection() {
       avatar: "/testimonial-avatar-3.png"
     },
     {
-      text: "My shop chat used to sound impossible. Now it's my channel.",
-      name: "Charlie Brown",
+      text: "I didn't think chat could bring real customers. Now, I can't imagine business without it.",
+      name: "Kevin Hart",
       avatar: "/testimonial-avatar-4.png"
     },
     {
@@ -41,9 +41,10 @@ export default function TestimonialsSection() {
       name: "Noah Obinna",
       avatar: "/testimonial-avatar-5.png"
     },
+    
     {
-      text: "I didn't think chat could bring real customers. Now, I can't imagine business without it.",
-      name: "Kevin Hart",
+      text: "My shop chat used to sound impossible. Now it's my channel.",
+      name: "Charlie Brown",
       avatar: "/testimonial-avatar-6.png"
     }
   ];
