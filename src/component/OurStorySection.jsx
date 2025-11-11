@@ -10,7 +10,7 @@ export default function OurStorySection() {
           {/* Right Side - Content - Shows FIRST on mobile */}
           <div className="relative w-full order-1 lg:order-2 space-y-[1.5rem] sm:space-y-[2rem] lg:space-y-[2rem]">
             {/* "Our Story" Card - Center aligned */}
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex justify-center">
               <div 
                 className="inline-flex items-center justify-center gap-[0.5rem] bg-white px-[1.25rem] py-[0.75rem] rounded-[1.25rem] border-[0.05rem] border-[#0096FF] shadow-[0_0.25rem_0.5rem_rgba(255,188,3,0.19)]"
                 style={{ transform: 'rotate(5deg)' }}
@@ -36,8 +36,8 @@ export default function OurStorySection() {
           <div className="relative w-full flex justify-center lg:justify-start order-2 lg:order-1">
             <div className="relative w-full max-w-[25rem] sm:max-w-[30rem] md:max-w-[35rem] lg:max-w-[40rem] h-[30rem] sm:h-[35rem] md:h-[40rem] lg:h-[45rem]">
               
-              {/* Left Phone Mockup (Red) - Reduced width for more spacing */}
-              <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[40%] sm:w-[42%] lg:w-[42%] z-10">
+              {/* Left Phone Mockup (Red) - Larger and positioned closer */}
+              <div className="absolute left-[2%] top-1/2 -translate-y-1/2 w-[48%] sm:w-[48%] lg:w-[48%] z-10">
                 <img 
                   src="/story-phone-red.png" 
                   alt="SmashChat app interface" 
@@ -45,8 +45,8 @@ export default function OurStorySection() {
                 />
               </div>
 
-              {/* Right Phone Mockups (Blue + Man with Package) - Reduced width for more spacing */}
-              <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[40%] sm:w-[42%] lg:w-[42%] z-20">
+              {/* Right Phone Mockups (Blue + Man with Package) - Larger and positioned closer */}
+              <div className="absolute right-[2%] top-1/2 -translate-y-1/2 w-[48%] sm:w-[48%] lg:w-[48%] z-20">
                 {/* Blue Phone Mockup */}
                 <img 
                   src="/story-phone-blue.png" 
@@ -54,12 +54,12 @@ export default function OurStorySection() {
                   className="w-full h-auto relative z-10"
                 />
                 
-                {/* Man with Package Image - Smaller size to fit inside frame */}
-                <div className="absolute top-[10%] left-[8%] w-[75%] h-[70%] z-20 overflow-visible rounded-[1.5rem] sm:rounded-[2rem] lg:rounded-[2.5rem]">
+                {/* Man with Package Image - Positioned with left property to extend out */}
+                <div className="absolute top-[0%] w-[132%] h-[100%] z-20 overflow-visible rounded-[1.5rem] sm:rounded-[2rem] lg:rounded-[2.5rem]" style={{ left: '0.375rem' }}>
                   <img 
                     src="/story-delivery-man.png" 
                     alt="Delivery person" 
-                    className="w-full h-full object-cover object-center"
+                    className="w-full h-full object-contain object-center"
                   />
                 </div>
               </div>
