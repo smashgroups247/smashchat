@@ -49,12 +49,12 @@ export default function AboutHeroSection() {
         </div>
 
         {/* Shop Card - Mobile */}
-        <div className="flex lg:hidden absolute bottom-[-8rem] sm:bottom-[16rem] md:bottom-[-9rem] md:left-[4rem] left-[0.5rem] sm:left-[1rem] w-[3.5rem] sm:w-[4rem] h-[1.75rem] sm:h-[2rem] bg-[#0096FFE5] border border-white rounded-[0.875rem] sm:rounded-[1rem] items-center justify-center shadow-[0_0.3125rem_1.5625rem_rgba(0,0,0,0.12)] z-25" style={{ transform: 'rotate(-20deg)' }}>
+        <div className="flex lg:hidden absolute bottom-[-8rem] sm:bottom-[16rem] md:bottom-[-9rem] md:left-[4rem] left-[0.5rem] sm:left-[1rem] w-[3.5rem] sm:w-[4rem] h-[1.75rem] sm:h-[2rem] bg-[#0096FFE5] border border-white rounded-[0.875rem] sm:rounded-[1rem] items-center justify-center shadow-[0_0.3125rem_1.5625rem_rgba(0,0,0,0.12)] z-25 max-[424px]:left-[0.25rem]" style={{ transform: 'rotate(-20deg)' }}>
           <span className="text-[#00212A] text-[0.625rem] sm:text-[0.75rem] font-normal leading-[100%] whitespace-nowrap">Shop</span>
         </div>
 
         {/* Chat Card - Mobile */}
-        <div className="flex lg:hidden absolute top-[11rem] sm:top-[9rem] md:top-[14rem] md:right-[3rem] right-[0.5rem] sm:right-[1rem] w-[3rem] sm:w-[3.5rem] h-[1.75rem] sm:h-[2rem] bg-[#0096FFE5] border border-white rounded-[0.875rem] sm:rounded-[1rem] items-center justify-center shadow-[0_0.3125rem_1.5625rem_rgba(0,0,0,0.12)] z-25" style={{ transform: 'rotate(15deg)' }}>
+        <div className="flex lg:hidden absolute top-[11rem] sm:top-[9rem] md:top-[14rem] md:right-[3rem] right-[0.5rem] sm:right-[1rem] w-[3rem] sm:w-[3.5rem] h-[1.75rem] sm:h-[2rem] bg-[#0096FFE5] border border-white rounded-[0.875rem] sm:rounded-[1rem] items-center justify-center shadow-[0_0.3125rem_1.5625rem_rgba(0,0,0,0.12)] z-25 " style={{ transform: 'rotate(15deg)' }}>
           <span className="text-[#00212A] text-[0.625rem] sm:text-[0.75rem] font-normal leading-[100%] whitespace-nowrap">Chat</span>
         </div>
 
