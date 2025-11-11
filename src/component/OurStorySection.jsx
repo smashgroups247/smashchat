@@ -46,7 +46,7 @@ export default function OurStorySection() {
               </div>
 
               {/* Right Phone Mockups (Blue + Man with Package) - Larger and positioned closer */}
-              <div className="absolute right-[2%] top-1/2 -translate-y-1/2 w-[48%] sm:w-[48%] lg:w-[48%] z-20">
+              <div className="absolute right-[-4%] top-1/2 -translate-y-1/2 w-[48%] sm:w-[48%] lg:w-[48%] z-20">
                 {/* Blue Phone Mockup */}
                 <img 
                   src="/story-phone-blue.png" 
