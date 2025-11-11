@@ -26,7 +26,7 @@ export default function AboutHeroSection() {
         <StarsDecorationWhite className="lg:hidden absolute top-[1rem] right-[1rem] w-[3rem] h-[3rem] z-15 max-[424px]:right-[0rem] max-[424px]:top-[0rem]" />
 
         {/* Stars Decoration - Blue - Mobile Left */}
-        <StarsDecoration className="lg:hidden absolute top-[10rem] sm:top-[11rem] md:top-[12rem] left-[0.5rem] w-[3rem] h-[3rem] z-15" />
+        <StarsDecoration className="lg:hidden absolute top-[26rem] sm:top-[11rem] md:top-[12rem] left-[0.5rem] w-[3rem] h-[3rem] z-15" />
 
         {/* Connect Card - Desktop */}
         <div className="hidden lg:flex absolute top-[2rem] left-[7.5rem] w-[6.75rem] h-[2.8125rem] bg-[#0096FFE5] border border-white rounded-[1.25rem] items-center justify-center shadow-[0_0.3125rem_1.5625rem_rgba(0,0,0,0.12)] z-25" style={{ transform: 'rotate(-20.83deg)' }}>
