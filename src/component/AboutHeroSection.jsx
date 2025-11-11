@@ -75,7 +75,7 @@ export default function AboutHeroSection() {
         <div className="absolute bottom-[-20rem] sm:bottom-[3rem] md:bottom-[-25rem] lg:bottom-[8rem] left-1/2 -translate-x-1/2 w-full flex justify-center items-end z-30">
           <div className="relative flex justify-center items-end lg:top-[46.875rem]">
             {/* Mockup 1 (Left Phone) */}
-            <div className="relative w-[8rem] sm:w-[9rem] md:w-[11rem] lg:w-[16.333125rem] h-auto z-30">
+            <div className="relative w-[8rem] sm:w-[9rem] md:w-[11rem] lg:w-[16.333125rem] bottom-[1rem] lg:bottom-[1.875rem] h-auto z-30">
               <img 
                 src="/about-hero-phone-1.png" 
                 alt="SmashChat interface" 
