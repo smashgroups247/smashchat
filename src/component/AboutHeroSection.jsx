@@ -61,12 +61,12 @@ export default function AboutHeroSection() {
         {/* Content Container */}
         <div className="max-w-[45rem] sm:max-w-[50rem] lg:max-w-[60rem] mx-auto space-y-[1.25rem] sm:space-y-[1.5rem] text-center relative z-20 pt-[2rem] sm:pt-[2.5rem] lg:pt-[3rem]">
           {/* Main Heading */}
-          <h1 className="text-[1.5rem] sm:text-[1.75rem] md:text-[2.5rem] lg:text-[3.375rem] font-bold leading-[2rem] sm:leading-[2.25rem] md:leading-[3rem] lg:leading-[4rem] text-[#00212A] px-[0.5rem]">
+          <h1 className="text-[1.5rem] sm:text-[1.75rem] md:text-[2.5rem] lg:text-[3.375rem] font-bold leading-[1.8rem] sm:leading-[2.1rem] md:leading-[3rem] lg:leading-[4rem] text-[#00212A] px-[0.5rem]" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
             Built in Africa. Built for connection.
           </h1>
 
           {/* Sub-heading */}
-          <p className="text-[0.875rem] sm:text-[1rem] md:text-[1.125rem] lg:text-[1.5rem] font-normal leading-[1.375rem] sm:leading-[1.5rem] md:leading-[1.75rem] lg:leading-[2.25rem] text-[#00212A] max-w-[40rem] sm:max-w-[45rem] mx-auto px-[0.5rem]">
+          <p className="text-[0.875rem] sm:text-[1rem] md:text-[1.125rem] lg:text-[1.5rem] font-normal leading-[1.3125rem] sm:leading-[1.5rem] md:leading-[1.6875rem] lg:leading-[2.25rem] text-[#00212A] max-w-[40rem] sm:max-w-[45rem] mx-auto px-[0.5rem]" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>
             Smashchat was created to make chatting and shopping feel natural, all from one app that understands how Africa connects.
           </p>
         </div>
