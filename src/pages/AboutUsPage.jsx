@@ -1,7 +1,11 @@
 import AboutHeroSection from "../component/AboutHeroSection";
+import OurStorySection from "../component/OurStorySection";
 const AboutUsPage = () => {
   return (
-   <AboutHeroSection />
+    <>
+      <AboutHeroSection />
+      <OurStorySection />
+    </>
   );
 };
 
