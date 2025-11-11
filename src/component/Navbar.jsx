@@ -1,13 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
-/**
- * Navbar Component
- * 
- * Purpose: Main navigation bar with mobile menu support
- * Uses NavLink for client-side routing (no page reloads)
- * Responsive design with mobile hamburger menu
- */
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 

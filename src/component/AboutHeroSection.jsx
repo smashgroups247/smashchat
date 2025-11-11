@@ -7,7 +7,7 @@ export default function AboutHeroSection() {
     <section className="relative bg-[#0096FFE5] pt-[10rem] sm:pt-[11rem] md:pt-[12rem] lg:pt-[13rem] pb-[25rem] sm:pb-[22rem] md:pb-[32rem] lg:pb-[40rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
       
       {/* White Curved Background at Bottom */}
-      <div className="absolute bottom-0 left-0 right-0 h-[15rem] sm:h-[18rem] md:h-[20rem] lg:h-[20rem] bg-white z-0" style={{ borderTopLeftRadius: '50% 80px', borderTopRightRadius: '50% 80px' }}></div>
+      <div className="absolute bottom-0 left-0 right-0 h-[15rem] sm:h-[18rem] md:h-[20rem] lg:h-[20rem] bg-white z-0" style={{ borderTopLeftRadius: '50% 50px', borderTopRightRadius: '50% 50px' }}></div>
 
       <div className="max-w-[90rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem] relative">
         {/* Stars Decoration - White - Top Left (Desktop) */}
