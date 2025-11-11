@@ -20,7 +20,7 @@ export default function AboutHeroSection() {
         <StarsDecoration className="hidden lg:block absolute top-[38rem] left-[0.5rem] w-[6rem] h-[6rem] z-15" />
 
         {/* Stars Decoration - Blue - Bottom Left (Desktop) */}
-        <StarsDecoration className="hidden lg:block absolute bottom-[22rem] lg:bottom-[-36rem] lg:left-[56rem] left-[2rem] w-[6rem] h-[6rem] z-15" />
+        <StarsDecoration className="hidden lg:block absolute bottom-[22rem] lg:bottom-[-36rem] lg:left-[80rem] left-[2rem] w-[6rem] h-[6rem] z-15" />
 
         {/* Stars Decoration - White - Mobile Top Right */}
         <StarsDecorationWhite className="lg:hidden absolute top-[1rem] right-[1rem] w-[3rem] h-[3rem] z-15 max-[424px]:right-[0rem] max-[424px]:top-[0rem]" />
