@@ -6,7 +6,7 @@ import CTASection from "../component/CTASection";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       {/* Hero section with main value proposition */}
       <HeroSection />
       
@@ -21,7 +21,7 @@ const HomePage = () => {
       
       {/* Call-to-action section */}
       <CTASection />
-    </div>
+    </>
   );
 };
 
