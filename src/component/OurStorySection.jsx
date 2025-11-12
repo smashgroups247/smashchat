@@ -34,7 +34,7 @@ export default function OurStorySection() {
 
           {/* Left Side - Phone Mockups - Shows SECOND on mobile */}
           <div className="relative w-full flex justify-center lg:justify-start order-2 lg:order-1">
-            <div className="relative w-full max-w-[25rem] sm:max-w-[30rem] md:max-w-[35rem] lg:max-w-[40rem] h-[30rem] sm:h-[35rem] md:h-[40rem] lg:h-[45rem]">
+            <div className="relative w-full max-w-[25rem] sm:max-w-[30rem] md:max-w-[35rem] lg:max-w-[40rem] h-[22rem] sm:h-[35rem] md:h-[40rem] lg:h-[45rem]">
               
               {/* Left Phone Mockup (Red) - Larger and positioned closer */}
               <div className="absolute left-[2%] top-1/2 -translate-y-1/2 w-[48%] sm:w-[48%] lg:w-[48%] z-10">
