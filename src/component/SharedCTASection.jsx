@@ -43,12 +43,12 @@ export default function SharedCTASection() {
           {/* Left Side - Content - Shows SECOND on mobile */}
           <div className="relative space-y-[1.5rem] sm:space-y-[2rem] lg:space-y-[2rem] order-2 lg:order-1 w-full">
             {/* Heading */}
-            <h2 className="text-[1.5rem] sm:text-[1.75rem] md:text-[2rem] lg:text-[2.25rem] xl:text-[2.5rem] font-bold leading-[1.8rem] sm:leading-[2.1rem] md:leading-[2.4rem] lg:leading-[2.7rem] xl:leading-[3rem] text-center lg:text-left text-[#00212A]">
+            <h2 className="text-[2rem] lg:text-[2.5rem] font-bold leading-[2.5rem] lg:leading-[3rem] text-center lg:text-left text-[#00212A]">
               Let's build the future of connection together.
             </h2>
 
             {/* Paragraph */}
-            <p className="text-[0.875rem] sm:text-[1rem] md:text-[1.125rem] lg:text-[1.25rem] xl:text-[1.5rem] font-normal leading-[1.5] sm:leading-[1.6] lg:leading-[1.5] xl:leading-[2.25rem] text-center lg:text-left text-[#00212A] max-w-[35rem] lg:max-w-[40rem] mx-auto lg:mx-0">
+            <p className="text-[0.875rem] lg:text-[1.5rem] font-normal leading-[1.375rem] lg:leading-[2.25rem] text-center lg:text-left text-[#00212A] max-w-[35rem] lg:max-w-[40rem] mx-auto lg:mx-0">
               Whether you're a user, vendor, or developer SmashChat has a place for you.
             </p>
 
