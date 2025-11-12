@@ -13,7 +13,7 @@ export default function OurStorySection() {
             <div className="flex justify-center">
               <div 
                 className="inline-flex items-center justify-center gap-[0.5rem] bg-white px-[1.25rem] py-[0.75rem] rounded-[1.25rem] border-[0.05rem] border-[#0096FF] shadow-[0_0.25rem_0.5rem_rgba(255,188,3,0.19)]"
-                style={{ transform: 'rotate(5deg)' }}
+                style={{ transform: 'rotate(-10deg)' }}
               >
                 <span className="text-[#00212A] text-[1rem] sm:text-[1.125rem] font-normal leading-[1.125rem] whitespace-nowrap">
                   Our Story
@@ -46,7 +46,7 @@ export default function OurStorySection() {
               </div>
 
               {/* Right Phone Mockups (Blue + Man with Package) - Larger and positioned closer */}
-              <div className="absolute right-[-4%] top-1/2 -translate-y-1/2 w-[48%] sm:w-[48%] lg:w-[48%] z-20">
+              <div className="absolute right-[0%] top-1/2 -translate-y-1/2 w-[48%] sm:w-[48%] lg:w-[48%] z-20">
                 {/* Blue Phone Mockup */}
                 <img 
                   src="/story-phone-blue.png" 
