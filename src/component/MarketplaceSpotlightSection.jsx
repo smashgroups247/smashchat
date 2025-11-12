@@ -1,5 +1,6 @@
 import React from "react";
 import StarsDecoration from "./StarsDecoration";
+import DownloadAppButton from "./DownloadAppButton";
 
 export default function MarketplaceSpotlightSection() {
   return (
@@ -59,21 +60,7 @@ export default function MarketplaceSpotlightSection() {
               message a vendor, tap a product card that shows in the chat,
               preview it, pay instantly. That's it.
             </p>
-
-            {/* Button */}
-            <div className="flex justify-center lg:justify-start">
-              <a
-                href="#"
-                className="inline-flex items-center justify-center gap-[0.5rem] bg-[#0096FF] text-white font-bold px-[2rem] py-[1rem] rounded-[1.25rem] hover:bg-[#0085e6] transition-colors text-[1rem] leading-[1.5rem] whitespace-nowrap shadow-sm"
-              >
-                <img
-                  src="/download-icon.svg"
-                  alt=""
-                  className="w-[1rem] h-[1rem]"
-                />
-                Download App
-              </a>
-            </div>
+<DownloadAppButton />
           </div>
         </div>
       </div>
