@@ -3,7 +3,7 @@ import StarsDecoration from './StarsDecoration';
 import DownloadAppButton from './DownloadAppButton';
 export default function HowItWorksHero() {
   return (
-    <section className="relative bg-white pt-[6rem] sm:pt-[7rem] md:pt-[8rem] lg:pt-[9rem] pb-[3rem] sm:pb-[4rem] md:pb-[5rem] lg:pb-[6rem] xl:pb-[8rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
+        <section className="relative bg-white pt-[8rem] lg:pt-[18rem] pb-[3rem] sm:pb-[4rem] md:pb-[5rem] lg:pb-[6rem] xl:pb-[8rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
       {/* Blue Stars Decoration - Top Right */}
       <StarsDecoration className="hidden lg:block absolute top-[1rem] right-[1rem] w-[3rem] h-[3rem] z-10" />
       
