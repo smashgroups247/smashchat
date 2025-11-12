@@ -1,5 +1,5 @@
-import React from "react";
 import StarsDecorationWhite from "./StarsDecorationWhite";
+import ImageGrid from "./ImageGrid";
 
 export default function CTASection() {
   return (
@@ -8,7 +8,7 @@ export default function CTASection() {
       <div className="absolute top-[-0.1875rem] right-0 w-[20rem] h-[10rem] sm:w-[25rem] sm:h-[12.5rem] lg:w-[30.75rem] lg:h-[15.5rem] pointer-events-none z-0">
         <img
           src="/cta-decoration.png"
-          alt=""
+          alt="cta-decoration"
           className="w-full h-full object-contain"
         />
       </div>
@@ -19,80 +19,7 @@ export default function CTASection() {
           {/* Right Side - Images - Shows FIRST on mobile */}
           <div className="relative w-full order-1 lg:order-2">
             <div className="relative w-full max-w-[28rem] mx-auto lg:max-w-none lg:w-full h-[25rem] sm:h-[30rem] lg:h-[35rem] xl:h-[40rem]">
-              {/* Image Grid/Collage */}
-              <div className="grid grid-cols-3 grid-rows-4 gap-[0.75rem] lg:gap-[1rem] h-full">
-                {/* Top-left image */}
-                <div className="col-span-1 row-span-2">
-                  <img
-                    src="/cta-user-1.png"
-                    alt="SmashChat user"
-                    className="w-full h-full object-cover rounded-[1rem]"
-                  />
-                </div>
-
-                {/* Top-center image (tall) */}
-                <div className="col-span-1 row-span-2 row-start-1">
-                  <img
-                    src="/cta-user-2.png"
-                    alt="SmashChat user"
-                    className="w-full h-full object-cover rounded-[1rem]"
-                  />
-                </div>
-
-                {/* Top-right image */}
-                <div className="col-span-1 row-span-2 row-start-1">
-                  <img
-                    src="/cta-user-3.png"
-                    alt="SmashChat user"
-                    className="w-full h-full object-cover rounded-[1rem]"
-                  />
-                </div>
-
-                {/* Middle-left image */}
-                <div className="col-span-1 row-span-1 row-start-3">
-                  <img
-                    src="/cta-user-4.png"
-                    alt="SmashChat user"
-                    className="w-full h-full object-cover rounded-[1rem]"
-                  />
-                </div>
-
-                {/* Middle-center image */}
-                <div className="col-span-1 row-span-2 row-start-3">
-                  <img
-                    src="/cta-user-5.png"
-                    alt="SmashChat user"
-                    className="w-full h-full object-cover rounded-[1rem]"
-                  />
-                </div>
-
-                {/* Middle-right image */}
-                <div className="col-span-1 row-span-1 row-start-3">
-                  <img
-                    src="/cta-user-6.png"
-                    alt="SmashChat user"
-                    className="w-full h-full object-cover rounded-[1rem]"
-                  />
-                </div>
-
-                {/* Bottom-left image (wide) */}
-                <div className="col-span-1 row-span-1 row-start-4">
-                  <img
-                    src="/cta-user-7.png"
-                    alt="SmashChat user"
-                    className="w-full h-full object-cover rounded-[1rem]"
-                  />
-                </div>
-
-                {/* Bottom-right image */}
-                <div className="col-span-1 row-span-1 row-start-4 col-start-3">
-                  <img
-                    src="/cta-user-8.png"
-                    alt="SmashChat user"
-                    className="w-full h-full object-cover rounded-[1rem]"
-                  />
-                </div>
-              </div>
+             <ImageGrid />
             </div>
           </div>
 
