@@ -14,7 +14,7 @@ export default function OurMissionSection() {
           {/* Left Side - Content - Shows FIRST on mobile */}
           <div className="relative w-full order-1 lg:order-1 space-y-[1.5rem] sm:space-y-[2rem] lg:space-y-[2rem]">
             {/* "Our Mission" Card */}
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex justify-center">
               <div 
                 className="inline-flex items-center justify-center gap-[0.5rem] bg-white px-[1.25rem] py-[0.75rem] rounded-[1.25rem] border-[0.05rem] border-[#0096FF] shadow-[0_0.25rem_0.5rem_rgba(255,188,3,0.19)]"
                 style={{ transform: 'rotate(-10deg)' }}
