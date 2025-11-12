@@ -52,7 +52,7 @@ export default function AboutHeroSection() {
         </div>
 
         {/* Shop Card - Mobile */}
-        <div className="flex lg:hidden absolute bottom-[-8rem] sm:bottom-[16rem] md:bottom-[-9rem] md:left-[4rem] left-[0.5rem] sm:left-[1rem] w-[3.5rem] sm:w-[4rem] h-[1.75rem] sm:h-[2rem] bg-[#0096FFE5] border border-white rounded-[0.875rem] sm:rounded-[1rem] items-center justify-center shadow-[0_0.3125rem_1.5625rem_rgba(0,0,0,0.12)] z-25 max-[424px]:left-[0.25rem]" style={{ transform: 'rotate(-20deg)' }}>
+        <div className="flex lg:hidden absolute bottom-[-8rem] sm:bottom-[16rem] md:bottom-[-9rem] md:left-[4rem] left-[0.5rem] sm:left-[1rem] w-[3.5rem] sm:w-[4rem] h-[1.75rem] sm:h-[2rem] bg-[#0096FFE5] border border-white rounded-[0.875rem] sm:rounded-[1rem] items-center justify-center shadow-[0_0.3125rem_1.5625rem_rgba(0,0,0,0.12)] z-25 max-[424px]:left-[0rem]" style={{ transform: 'rotate(-20deg)' }}>
           <span className="text-[#00212A] text-[0.625rem] sm:text-[0.75rem] font-normal leading-[100%] whitespace-nowrap">Shop</span>
         </div>
 
@@ -76,9 +76,9 @@ export default function AboutHeroSection() {
 
         {/* Phone Mockups Container - Positioned at Bottom */}
         <div className="absolute bottom-[-20rem] sm:bottom-[3rem] md:bottom-[-25rem] lg:bottom-[8rem] left-1/2 -translate-x-1/2 w-full flex justify-center items-end z-30">
-          <div className="relative flex justify-center items-end lg:top-[46.875rem]">
+          <div className="relative flex justify-center items-end top-[2rem] lg:top-[46.875rem]">
             {/* Mockup 1 (Left Phone) */}
-            <div className="relative w-[8rem] sm:w-[9rem] md:w-[11rem] lg:w-[16.333125rem] bottom-[1rem] lg:bottom-[1.875rem] h-auto z-30">
+            <div className="relative w-[9rem] sm:w-[9rem] md:w-[11rem] lg:w-[16.333125rem] bottom-[1rem] lg:bottom-[1.875rem] h-auto z-30">
               <img 
                 src="/about-hero-phone-1.png" 
                 alt="SmashChat interface" 
@@ -87,7 +87,7 @@ export default function AboutHeroSection() {
             </div>
 
             {/* Mockup 2 (Right Phone) - Overlapping */}
-            <div className="relative w-[9rem] sm:w-[10rem] md:w-[12rem] lg:w-[17.98967925rem] h-auto z-40 ml-[-1.5rem] sm:ml-[-2rem] md:ml-[-2.5rem] lg:ml-[-3rem]">
+            <div className="relative w-[10rem] sm:w-[10rem] md:w-[12rem] lg:w-[17.98967925rem] h-auto z-40 ml-[-1.5rem] sm:ml-[-2rem] md:ml-[-2.5rem] lg:ml-[-3rem]">
               <img 
                 src="/about-hero-phone-2.png" 
                 alt="SmashChat chat interface" 
