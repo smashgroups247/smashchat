@@ -24,7 +24,7 @@ export default function HowItWorksHero() {
       <img 
         src="/right-decorative-curve.png" 
         alt="decorative curve" 
-        className="lg:block absolute pointer-events-none z-0 w-[6rem] h-[1rem] lg:w-[11.25rem] lg:h-[2.1875rem] top-[17.5rem] left-[20rem] md:top-[22rem] md:left-[40rem] lg:top-[35rem] lg:left-[46rem] xl:top-[35rem] xl:left-[60rem] 2xl:left-[100rem]"
+        className="lg:block absolute pointer-events-none z-0 w-[6rem] h-[1rem] lg:w-[11.25rem] lg:h-[2.1875rem] top-[17.5rem] max-[424px]:left-[18rem] left-[21rem] md:top-[22rem] md:left-[40rem] lg:top-[35rem] lg:left-[46rem] xl:top-[35rem] xl:left-[60rem] 2xl:left-[100rem]"
       />
       
       <div className="max-w-[90rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem] relative z-10">
