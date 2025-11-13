@@ -7,7 +7,7 @@ export default function SignupSection() {
       {/* Blue Stars Decoration - Top Right */}
       <StarsDecoration className="hidden lg:block absolute top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem] 2xl:top-[8rem]" />
       {/* Blue Stars Decoration - Mobile Right */}
-      <StarsDecoration className="block lg:hidden absolute top-[10rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]" />
+      <StarsDecoration className="block lg:hidden absolute top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]" />
         {/* Blue Stars Decoration - Mobile Left */}
       <StarsDecoration className="block lg:hidden absolute top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10" />
       <div className="max-w-[90rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem] relative z-10">
