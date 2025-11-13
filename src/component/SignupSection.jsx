@@ -3,7 +3,7 @@ import StarsDecoration from "./StarsDecoration";
 
 export default function SignupSection() {
   return (
-    <section className="relative bg-white py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
+    <section className="relative bg-white py-[3rem] sm:py-[4rem] md:pb-[12rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
       {/* Blue Stars Decoration - Top Right */}
       <StarsDecoration className="hidden lg:block absolute top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem] 2xl:top-[8rem]" />
       {/* Blue Stars Decoration - Mobile Right */}
