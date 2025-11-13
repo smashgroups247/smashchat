@@ -1,8 +1,10 @@
 import StarsDecorationWhite from "./StarsDecorationWhite";
+import QRCodeContainer from "./QRCodeContainer";
 
 export default function SharedCTASection() {
   return (
     <section className="relative bg-[#0096FF] py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
+        
       <div className="max-w-[90rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem] relative z-10">
         {/* Content Grid */}
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-[3rem] lg:gap-[4rem] xl:gap-[5rem] items-center">
@@ -10,19 +12,7 @@ export default function SharedCTASection() {
           <div className="relative w-full order-1 lg:order-2">
             <div className="relative w-full max-w-[28rem] mx-auto lg:max-w-none lg:w-full h-[25rem] sm:h-[30rem] lg:h-[35rem] xl:h-[40rem] flex flex-col items-center justify-center">
               {/* QR Code Container with white background */}
-              <div className="relative bg-white shadow-lg">
-                {/* Corner brackets - white, outside, straight angles */}
-                <div className="absolute top-[-1.75rem] left-[-1.75rem] w-[2.5rem] h-[2.5rem] border-l-[3px] border-t-[3px] border-white"></div>
-                <div className="absolute top-[-1.75rem] right-[-1.75rem] w-[2.5rem] h-[2.5rem] border-r-[3px] border-t-[3px] border-white"></div>
-                <div className="absolute bottom-[-1.75rem] left-[-1.75rem] w-[2.5rem] h-[2.5rem] border-l-[3px] border-b-[3px] border-white"></div>
-                <div className="absolute bottom-[-1.75rem] right-[-1.75rem] w-[2.5rem] h-[2.5rem] border-r-[3px] border-b-[3px] border-white"></div>
-                
-                <img
-                  src="/qr-code.png"
-                  alt="QR Code"
-                  className="w-[12rem] h-[12rem] sm:w-[14rem] sm:h-[14rem] lg:w-[16rem] lg:h-[16rem] xl:w-[18rem] xl:h-[18rem]"
-                />
-              </div>
+              <QRCodeContainer />
               
               {/* Scan to Install text */}
               <div className="mt-[1rem] flex items-center gap-[0.5rem]">

@@ -5,7 +5,7 @@ export default function HowItWorksHero() {
   return (
     <section className="relative bg-white pt-[8rem] lg:pt-[18rem] pb-[3rem] sm:pb-[4rem] md:pb-[5rem] lg:pb-[6rem] xl:pb-[8rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
       {/* Blue Stars Decoration - Top Right */}
-      <StarsDecoration className="hidden lg:block absolute top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem] 2xl:top-[8rem]" />
+      <StarsDecoration className="hidden lg:block absolute top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem] 2xl:top-[14rem] 2xl:right-[40rem]" />
       
       {/* Blue Stars Decoration - Left Side (Desktop) */}
       <StarsDecoration className="hidden lg:block absolute top-[14rem] left-[2rem] w-[6rem] h-[6rem] z-10 lg:top-[22rem] lg:left-[-2rem] xl:top-[21rem] xl:left-[-2rem] 2xl:left-[30rem] " />
