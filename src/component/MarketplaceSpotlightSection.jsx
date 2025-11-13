@@ -60,7 +60,9 @@ export default function MarketplaceSpotlightSection() {
               message a vendor, tap a product card that shows in the chat,
               preview it, pay instantly. That's it.
             </p>
-<DownloadAppButton />
+               <div className="w-full lg:w-auto flex justify-center lg:justify-start">
+              <DownloadAppButton />
+            </div>
           </div>
         </div>
       </div>
