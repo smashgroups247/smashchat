@@ -38,10 +38,10 @@ export default function SharedCTASection() {
           <StarsDecorationWhite className="hidden lg:block top-[54.0625rem] right-[8.25rem] w-[6.088rem] h-[6.801rem] lg:top-[-6rem] lg:right-[58.25rem] xl:top-[-8rem] xl:right-[84.25rem] 2xl:right-[82.55rem] 2xl:top-[-8rem]" />
 
           {/* Stars Decoration - Mobile */}
-          <StarsDecorationWhite className="top-[25rem] right-[23rem] w-[3rem] h-[3.5rem] max-[424px]:top-[25rem] max-[424px]:right-[20rem] md:right-[44rem] md:top-[28rem] lg:hidden" />
+          <StarsDecorationWhite className="top-[20rem] right-[23rem] w-[3rem] h-[3.5rem] max-[424px]:top-[20rem] max-[424px]:right-[20rem] md:right-[44rem] md:top-[28rem] lg:hidden" />
 
           {/* Left Side - Content - Shows SECOND on mobile */}
-          <div className="relative space-y-[1.5rem] sm:space-y-[2rem] lg:space-y-[2rem] order-2 lg:order-1 w-full">
+          <div className="relative top-[-4.375rem] lg:top-[0rem] space-y-[1.5rem] sm:space-y-[2rem] lg:space-y-[2rem] order-2 lg:order-1 w-full">
             {/* Heading */}
             <h2 className="text-[2rem] lg:text-[2.5rem] font-bold leading-[2.5rem] lg:leading-[3rem] text-center lg:text-left text-[#00212A]">
               Let's build the future of connection together.
