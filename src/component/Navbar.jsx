@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F7FCFC] shadow-[0_0.25rem_2.5rem_rgba(0,0,0,0.08)] mx-0 md:mx-8 lg:mx-16 xl:mx-20 2xl:mx-auto 2xl:max-w-[90rem] mt-0 lg:mt-[2.5rem] rounded-none lg:rounded-[1.5rem] px-4 md:px-6 lg:px-10 xl:px-[2.5rem] py-3 md:py-4 lg:py-5">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F7FCFC] shadow-[0_0.25rem_2.5rem_rgba(0,0,0,0.08)] mx-0 lg:mx-16 xl:mx-20 2xl:mx-auto 2xl:max-w-[100rem] mt-0 lg:mt-[2.5rem] rounded-none lg:rounded-[1.5rem] px-4 md:px-6 lg:px-10 xl:px-[2.5rem] py-3 md:py-4 lg:py-5">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <a 
