@@ -1,5 +1,5 @@
 import StarsDecorationWhite from "./StarsDecorationWhite";
-import ImageGrid from "./ImageGrid";
+import ImageGridHomePage from "./ImageGridHomePage";
 
 export default function HomeCTASection() {
   return (
@@ -18,7 +18,7 @@ export default function HomeCTASection() {
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-[2rem] lg:gap-[4rem] xl:gap-[5rem] items-center">
           {/* Right Side - Images - Shows FIRST on mobile */}
           <div className="relative w-full order-1 lg:order-2 flex items-center justify-center lg:justify-end">
-            <ImageGrid />
+            <ImageGridHomePage />
           </div>
 
           {/* Stars Decoration - Desktop */}

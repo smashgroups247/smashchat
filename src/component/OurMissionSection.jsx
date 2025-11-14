@@ -1,5 +1,5 @@
 import StarsDecoration from "./StarsDecoration";
-import ImageGrid from "./ImageGrid";
+import ImageGridAboutPage from "./ImageGridAboutPage";
 
 export default function OurMissionSection() {
   return (
@@ -39,7 +39,7 @@ export default function OurMissionSection() {
           {/* Right Side - Image Grid - Shows SECOND on mobile */}
           <div className="relative w-full order-2 lg:order-2 flex justify-center lg:justify-end">
             <div className="w-full max-w-[25rem] sm:max-w-[30rem] md:max-w-[35rem] lg:max-w-[40rem]">
-              <ImageGrid />
+              <ImageGridAboutPage />
             </div>
           </div>
 
