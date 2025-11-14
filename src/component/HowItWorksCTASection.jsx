@@ -5,7 +5,7 @@ export default function HowItWorksCTASection() {
   return (
     <section className="relative bg-[#0096FF] mt-[6.25rem] py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
       {/* Top-right decoration */}
-      <div className="absolute top-[-0.1875rem] right-0 w-[20rem] h-[10rem] sm:w-[25rem] sm:h-[12.5rem] lg:w-[30.75rem] lg:h-[15.5rem] xl:right-[-3.125rem] pointer-events-none z-0">
+      <div className="absolute top-[-0.1875rem] right-[-3.125rem] w-[20rem] h-[10rem] sm:w-[25rem] sm:h-[12.5rem] lg:w-[30.75rem] lg:h-[15.5rem] xl:right-[-3.125rem] pointer-events-none z-0">
         <img
           src="/cta-decoration.png"
           alt="cta-decoration"
