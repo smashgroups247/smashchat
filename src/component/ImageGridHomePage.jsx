@@ -15,7 +15,7 @@ const ImageGridHomePage = () => {
         {/* Top-center image (tall) */}
         <div className="aspect-[3/4]">
           <img
-            src="/cta-user-2.png"
+            src="/cta-user-home-2.png"
             alt="SmashChat user"
             className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
           />

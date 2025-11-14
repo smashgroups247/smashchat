@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState('/about-us');
+  const location = useLocation();
 
   // Navigation links configuration
   const navLinks = [
@@ -13,42 +14,41 @@ const Navbar = () => {
     { to: '/support', label: 'Support' }
   ];
 
-  const handleLinkClick = (to) => {
-    setActiveLink(to);
+  const handleLinkClick = () => {
     setIsMobileMenuOpen(false);
   };
+
+  const isActive = (path) => location.pathname === path;
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#F7FCFC] shadow-[0_0.25rem_2.5rem_rgba(0,0,0,0.08)] mx-0 lg:mx-16 xl:mx-20 2xl:mx-auto 2xl:max-w-[100rem] mt-0 lg:mt-[2.5rem] rounded-none lg:rounded-[1.5rem] px-4 md:px-6 lg:px-10 xl:px-[2.5rem] py-3 md:py-4 lg:py-5">
       <div className="flex items-center justify-between">
         {/* Logo */}
-        <a 
-          href="#" 
-          className="flex items-center gap-2 shrink-0" 
-          onClick={(e) => { e.preventDefault(); handleLinkClick('/'); }}
+        <Link 
+          to="/" 
+          className="flex items-center gap-2 shrink-0"
         >
           <img src="/logo.svg" alt="SmashChat" className="w-7 h-7 md:w-8 md:h-8" />
           <span className="font-bold text-base md:text-lg">SmashChat</span>
-        </a>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center gap-7 text-sm xl:text-base">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.to}
-              href="#"
-              onClick={(e) => { e.preventDefault(); handleLinkClick(link.to); }}
+              to={link.to}
               className={`transition-colors relative pb-1 whitespace-nowrap ${
-                activeLink === link.to
+                isActive(link.to)
                   ? 'text-[#0096FF] font-semibold' 
                   : 'text-black hover:text-[#0096FF]'
               }`}
             >
               {link.label}
-              {activeLink === link.to && (
+              {isActive(link.to) && (
                 <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-14 h-0.5 bg-[#0096FF] rounded-full"></span>
               )}
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -78,18 +78,18 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="lg:hidden mt-4 pt-4 border-t border-gray-200 flex flex-col gap-3">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.to}
-              href="#"
-              onClick={(e) => { e.preventDefault(); handleLinkClick(link.to); }}
+              to={link.to}
+              onClick={handleLinkClick}
               className={`transition-colors text-sm py-2 ${
-                activeLink === link.to
+                isActive(link.to)
                   ? 'text-[#0096FF] font-semibold' 
                   : 'text-black hover:text-[#0096FF]'
               }`}
             >
               {link.label}
-            </a>
+            </Link>
           ))}
           <a
             href="#"
