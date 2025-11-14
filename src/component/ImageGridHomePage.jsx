@@ -24,7 +24,7 @@ const ImageGridHomePage = () => {
         {/* Top-right image */}
         <div className="aspect-[3/4]">
           <img
-            src="/cta-user-3.png"
+            src="/cta-user-home-3.png"
             alt="SmashChat user"
             className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
           />
@@ -33,7 +33,7 @@ const ImageGridHomePage = () => {
         {/* Middle-left image */}
         <div className="aspect-square">
           <img
-            src="/cta-user-4.png"
+            src="/cta-user-home-4.png"
             alt="SmashChat user"
             className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
           />
@@ -42,7 +42,7 @@ const ImageGridHomePage = () => {
         {/* Middle-center image (tall) */}
         <div className="aspect-[3/4]">
           <img
-            src="/cta-user-5.png"
+            src="/cta-user-home-5.png"
             alt="SmashChat user"
             className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
           />
@@ -51,7 +51,7 @@ const ImageGridHomePage = () => {
         {/* Middle-right image */}
         <div className="aspect-square">
           <img
-            src="/cta-user-6.png"
+            src="/cta-user-home-6.png"
             alt="SmashChat user"
             className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
           />
@@ -60,7 +60,7 @@ const ImageGridHomePage = () => {
         {/* Bottom-left image */}
         <div className="aspect-square">
           <img
-            src="/cta-user-7.png"
+            src="/cta-user-home-7.png"
             alt="SmashChat user"
             className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
           />
@@ -69,7 +69,7 @@ const ImageGridHomePage = () => {
         {/* Bottom-center image */}
         <div className="aspect-square">
           <img
-            src="/cta-user-3.png"
+            src="/cta-user-home-3.png"
             alt="SmashChat user"
             className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
           />
@@ -78,7 +78,7 @@ const ImageGridHomePage = () => {
         {/* Bottom-right image */}
         <div className="aspect-square">
           <img
-            src="/cta-user-8.png"
+            src="/cta-user-home-8.png"
             alt="SmashChat user"
             className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
           />
