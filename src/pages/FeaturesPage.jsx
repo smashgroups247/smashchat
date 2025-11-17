@@ -1,5 +1,6 @@
 import FeaturesHero from "../component/FeaturesHero";
 import FeaturesPageFeatureSection from "../component/FeaturesPageFeatureSection";
+import FeaturesPageSingleImageSection from "../component/FeaturesPageSingleImageSection";
 const FeaturesPage = () => {
   return (
     <>
@@ -21,7 +22,7 @@ const FeaturesPage = () => {
         imageLeftAlt="SmashChat interface"
         imageRightAlt="Video call interface"
         layout="images-left"
-        showStars={true}
+        showStars={false}
         starsDesktop="top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem] 2xl:right-[40rem] 2xl:top-[16rem]"
         starsMobileRight="top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
         starsMobileLeft="top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
@@ -43,22 +44,21 @@ const FeaturesPage = () => {
         imageLeftAlt="SmashChat interface"
         imageRightAlt="Video call interface"
         layout="images-right"
-        showStars={true}
+        showStars={false}
         starsDesktop="top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem] 2xl:right-[40rem] 2xl:top-[16rem]"
         starsMobileRight="top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
         starsMobileLeft="top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
         sectionPadding="py-[3rem] sm:py-[4rem] md:pb-[12rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
       />
 
-
-         {/* Payments Section */}
-       <FeaturesPageFeatureSection
+      {/* Payments Section */}
+      <FeaturesPageFeatureSection
         heading="Secure payments for"
         headingHighlight="real-world trade"
         features={[
           "Fast local payments and transfers",
           "Encrypted transaction data",
-          "Trusted buyer-seller verification"
+          "Trusted buyer-seller verification",
         ]}
         footerText="Your money. Your privacy. Always protected."
         imageLeft="/payment-phone-left.png"
@@ -66,13 +66,54 @@ const FeaturesPage = () => {
         imageLeftAlt="SmashChat interface"
         imageRightAlt="Video call interface"
         layout="images-left"
-        showStars={true}
+        showStars={false}
         starsDesktop="top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem] 2xl:right-[40rem] 2xl:top-[16rem]"
         starsMobileRight="top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
         starsMobileLeft="top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
         sectionPadding="py-[3rem] sm:py-[4rem] md:pb-[12rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
       />
 
+      {/* Designed for Africa Section */}
+      <FeaturesPageSingleImageSection
+        heading="Designed for"
+        headingHighlight="Africa"
+        features={[
+          "Optimized for low data + patchy networks",
+          "Local currencies and familiar payment methods",
+          "Tools that support small and growing businesses",
+        ]}
+        footerText="Community first. Commerce next. Always Africa at the center."
+        image="/community.png"
+        imageAlt="People using SmashChat in Africa"
+        layout="images-right"
+        showStars={false}
+        starsDesktop="top-[1rem] left-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem]"
+        starsMobileRight="top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem]"
+        starsMobileLeft="top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] w-[4rem] h-[4rem] z-10"
+        sectionPadding="py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
+      />
+
+      {/* Your World Section */}
+      <FeaturesPageFeatureSection
+        heading="Your world,"
+        headingHighlight="your network"
+        features={[
+          "Contacts-based social graph",
+          "Status updates and business profiles",
+          "Trusted recommendations from familiar faces",
+        ]}
+        footerText="Opportunity lives in your contacts list."
+        imageLeft="/yourWorld-phone-left.png"
+        imageRight="yourWorld-phone-right.png"
+        imageLeftAlt="SmashChat interface"
+        imageRightAlt="Video call interface"
+        layout="images-left"
+        showStars={false}
+        starsDesktop="top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem] 2xl:right-[40rem] 2xl:top-[16rem]"
+        starsMobileRight="top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
+        starsMobileLeft="top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
+        sectionPadding="py-[3rem] sm:py-[4rem] md:pb-[12rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
+      />
     </>
   );
 };
