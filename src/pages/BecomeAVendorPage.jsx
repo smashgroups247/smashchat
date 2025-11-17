@@ -49,10 +49,10 @@ const BecomeAVendorPage = () => {
         headingHighlight="and reach new buyers" //blue span text
         description="Boost your products with sponsored placements they’ll appear in the Discover feed and inside chats where users look for similar items. Pay only for engagement, not empty views."
         descriptionSecondary="Let your products talk to the right people."
-        imageLeft="/chat-phone-left.png"
-        imageRight="/chat-phone-right.png"
-        imageLeftAlt="SmashChat interface"
-        imageRightAlt="Sign up interface"
+        imageLeft="/promote-phone-left.png"
+        imageRight="/promote-phone-right.png"
+        imageLeftAlt="Promote interface"
+        imageRightAlt="Promote interface"
         layout="images-left"
         showStars={true}
         starsDesktop="top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[0rem] lg:right-[57rem] xl:top-[0rem] xl:right-[82rem] 2xl:top-[0rem] 2xl:right-[122rem]"
