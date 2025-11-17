@@ -1,6 +1,7 @@
 import FeaturesHero from "../component/FeaturesHero";
 import FeaturesPageFeatureSection from "../component/FeaturesPageFeatureSection";
 import FeaturesPageSingleImageSection from "../component/FeaturesPageSingleImageSection";
+import HowItWorksCTASection from "../component/HowItWorksCTASection";
 const FeaturesPage = () => {
   return (
     <>
@@ -114,6 +115,9 @@ const FeaturesPage = () => {
         starsMobileLeft="top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
         sectionPadding="py-[3rem] sm:py-[4rem] md:pb-[12rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
       />
+
+      {/* Call-to-action section */}
+      <HowItWorksCTASection />
     </>
   );
 };
