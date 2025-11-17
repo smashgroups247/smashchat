@@ -1,11 +1,10 @@
 import React from "react";
 import StarsDecoration from "./StarsDecoration";
 
-export default function FeaturesPageFeatureSection({
+export default function HowItWorksFeatureSection({
   heading,
   headingHighlight,
-  features = [],
-  footerText,
+  description,
   imageLeft,
   imageRight,
   imageLeftAlt = "App interface",
@@ -79,24 +78,10 @@ export default function FeaturesPageFeatureSection({
               <span className="text-[#0096FF]">{headingHighlight}</span>
             </h2>
 
-            {/* Features List - font-size: 24px = 1.5rem, line-height: 36px = 2.25rem */}
-            {features.length > 0 && (
-              <div className="flex justify-center lg:justify-start">
-                <ul className="space-y-[0.75rem] sm:space-y-[1rem] text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.5rem] font-normal leading-[1.5rem] sm:leading-[1.6875rem] md:leading-[1.875rem] lg:leading-[2.25rem] text-left text-[#00212A]">
-                  {features.map((feature, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-[#0096FF] mr-[0.5rem] sm:mr-[0.625rem] lg:mr-[0.75rem] flex-shrink-0 mt-[0.125rem]">•</span>
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-
-            {/* Footer Text - font-size: 24px = 1.5rem, line-height: 36px = 2.25rem */}
-            {footerText && (
+            {/* Description */}
+            {description && (
               <p className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.5rem] font-normal leading-[1.5rem] sm:leading-[1.6875rem] md:leading-[1.875rem] lg:leading-[2.25rem] text-center lg:text-left text-[#00212A] max-w-[35rem] lg:max-w-[40rem] mx-auto lg:mx-0">
-                {footerText}
+                {description}
               </p>
             )}
           </div>

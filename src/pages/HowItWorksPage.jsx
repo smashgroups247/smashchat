@@ -7,8 +7,6 @@ const HowItWorksPage = () => {
     <>
       {/* Hero Section */}
       <HowItWorksHero />
-      {/* <SignupSection />
-    <SyncContactsSection /> */}
 
       {/* Signup Section */}
       <HowItWorksFeatureSection
