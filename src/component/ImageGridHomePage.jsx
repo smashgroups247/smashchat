@@ -1,89 +1,19 @@
 const ImageGridHomePage = () => {
   return (
     <div className="w-full max-w-[20rem] sm:max-w-[24rem] lg:max-w-[26rem] xl:max-w-[28rem] mx-auto lg:mx-0">
-      {/* Image Grid/Collage */}
-      <div className="grid grid-cols-3 gap-[0.5rem] lg:gap-[0.625rem]">
-        {/* Top-left image */}
-        <div className="aspect-[3/4]">
-          <img
-            src="/cta-user-home-1.png"
-            alt="SmashChat user"
-            className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
-          />
-        </div>
-
-        {/* Top-center image (tall) */}
-        <div className="aspect-[3/4]">
-          <img
-            src="/cta-user-home-2.png"
-            alt="SmashChat user"
-            className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
-          />
-        </div>
-
-        {/* Top-right image */}
-        <div className="aspect-[3/4]">
-          <img
-            src="/cta-user-home-3.png"
-            alt="SmashChat user"
-            className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
-          />
-        </div>
-
-        {/* Middle-left image */}
-        <div className="aspect-square">
-          <img
-            src="/cta-user-home-4.png"
-            alt="SmashChat user"
-            className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
-          />
-        </div>
-
-        {/* Middle-center image (tall) */}
-        <div className="aspect-[3/4]">
-          <img
-            src="/cta-user-home-5.png"
-            alt="SmashChat user"
-            className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
-          />
-        </div>
-
-        {/* Middle-right image */}
-        <div className="aspect-square">
-          <img
-            src="/cta-user-home-6.png"
-            alt="SmashChat user"
-            className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
-          />
-        </div>
-
-        {/* Bottom-left image */}
-        <div className="aspect-square">
-          <img
-            src="/cta-user-home-7.png"
-            alt="SmashChat user"
-            className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
-          />
-        </div>
-
-        {/* Bottom-center image */}
-        <div className="aspect-square">
-          <img
-            src="/cta-user-home-3.png"
-            alt="SmashChat user"
-            className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
-          />
-        </div>
-
-        {/* Bottom-right image */}
-        <div className="aspect-square">
-          <img
-            src="/cta-user-home-8.png"
-            alt="SmashChat user"
-            className="w-full h-full object-cover rounded-[0.75rem] lg:rounded-[1rem]"
-          />
-        </div>
-      </div>
+      {/* Mobile Image - Shows on small screens */}
+      <img
+        src="/cta-user-home-mobile.png"
+        alt="SmashChat users collage"
+        className="w-full h-auto block lg:hidden"
+      />
+      
+      {/* Desktop Image - Shows on large screens */}
+      <img
+        src="/cta-user-home-desktop.png"
+        alt="SmashChat users collage"
+        className="w-full h-auto hidden lg:block"
+      />
     </div>
   );
 };
