@@ -1,10 +1,11 @@
 import React from "react";
 import StarsDecoration from "./StarsDecoration";
 
-export default function HowItWorksFeatureSection({
+export default function FeaturesPageFeatureSection({
   heading,
   headingHighlight,
-  description,
+  features = [],
+  footerText,
   imageLeft,
   imageRight,
   imageLeftAlt = "App interface",
@@ -72,16 +73,32 @@ export default function HowItWorksFeatureSection({
 
           {/* Content */}
           <div className={`relative space-y-[1.5rem] sm:space-y-[2rem] lg:space-y-[2rem] ${contentOrderClasses} w-full`}>
-            {/* Heading */}
-            <h2 className="text-[1.75rem] sm:text-[2.25rem] md:text-[2.75rem] lg:text-[3rem] xl:text-[3.375rem] font-bold leading-[2.25rem] sm:leading-[2.75rem] md:leading-[3.25rem] lg:leading-[3.75rem] xl:leading-[4rem] text-center lg:text-left text-[#00212A]">
+            {/* Heading - 54px = 3.375rem, line-height: 64px = 4rem */}
+            <h2 className="text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.375rem] font-bold leading-[2.5rem] sm:leading-[3rem] md:leading-[3.5rem] lg:leading-[4rem] text-center lg:text-left text-[#00212A]">
               {heading}{" "}
               <span className="text-[#0096FF]">{headingHighlight}</span>
             </h2>
 
-            {/* Paragraph */}
-            <p className="text-[0.875rem] sm:text-[1rem] md:text-[1.25rem] lg:text-[1.5rem] xl:text-[1.75rem] font-normal leading-[1.5] sm:leading-[1.6] lg:leading-[1.5] xl:leading-[2.625rem] text-center lg:text-left text-[#00212A] max-w-[35rem] lg:max-w-[40rem] mx-auto lg:mx-0">
-              {description}
-            </p>
+            {/* Features List - font-size: 24px = 1.5rem, line-height: 36px = 2.25rem */}
+            {features.length > 0 && (
+              <div className="flex justify-center lg:justify-start">
+                <ul className="space-y-[0.75rem] sm:space-y-[1rem] text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.5rem] font-normal leading-[1.5rem] sm:leading-[1.6875rem] md:leading-[1.875rem] lg:leading-[2.25rem] text-left text-[#00212A]">
+                  {features.map((feature, index) => (
+                    <li key={index} className="flex items-start">
+                      <span className="text-[#0096FF] mr-[0.5rem] sm:mr-[0.625rem] lg:mr-[0.75rem] flex-shrink-0 mt-[0.125rem]">•</span>
+                      <span>{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Footer Text - font-size: 24px = 1.5rem, line-height: 36px = 2.25rem */}
+            {footerText && (
+              <p className="text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] lg:text-[1.5rem] font-normal leading-[1.5rem] sm:leading-[1.6875rem] md:leading-[1.875rem] lg:leading-[2.25rem] text-center lg:text-left text-[#00212A] max-w-[35rem] lg:max-w-[40rem] mx-auto lg:mx-0">
+                {footerText}
+              </p>
+            )}
           </div>
         </div>
       </div>
