@@ -1,9 +1,5 @@
-import FeatureSection from "../component/FeatureSection";
+import HowItWorksFeatureSection from "../component/HowItWorksFeatureSection";
 import HowItWorksHero from "../component/HowItWorksHero";
-import SignupSection from "../component/SignupSection";
-import SyncContactsSection from "../component/SyncContactsSection";
-import CTASection from "../component/HomeCTASection";
-import QRCodeContainer from "../component/QRCodeContainer";
 import HowItWorksCTASection from "../component/HowItWorksCTASection";
 
 const HowItWorksPage = () => {
@@ -15,7 +11,7 @@ const HowItWorksPage = () => {
     <SyncContactsSection /> */}
 
       {/* Signup Section */}
-      <FeatureSection
+      <HowItWorksFeatureSection
         heading="Sign up with your"
         headingHighlight="phone number" //blue span text
         description="Enter your number, verify it, and boom you're in. No email drama, no long forms. Just you and your contacts."
@@ -32,7 +28,7 @@ const HowItWorksPage = () => {
       />
 
       {/* Sync Contacts Section */}
-      <FeatureSection
+      <HowItWorksFeatureSection
         heading="Sync your"
         headingHighlight="contacts"
         description="SmashChat automatically connects you to your existing contacts, so you can start chatting right away. No 'add friend' stress."
@@ -45,7 +41,7 @@ const HowItWorksPage = () => {
       />
 
       {/* For Start-chatting Section */}
-      <FeatureSection
+      <HowItWorksFeatureSection
         heading="Start"
         headingHighlight="chatting" //blue span text
         description="Text, voice, video whatever fits the moment. Smooth, fast, and fully encrypted."
@@ -62,7 +58,7 @@ const HowItWorksPage = () => {
       />
 
       {/* Buy-It Section */}
-      <FeatureSection
+      <HowItWorksFeatureSection
         heading="See something you like? Buy it"
         headingHighlight="right inside the chat" //blue span text
         description="Friends and vendors can share products straight into your conversations. Tap to view details, hit Buy, pay instantly."
@@ -79,7 +75,7 @@ const HowItWorksPage = () => {
       />
 
       {/* Get Your Order Section */}
-      <FeatureSection
+      <HowItWorksFeatureSection
         heading="Get your order,"
         headingHighlight="keep chatting" //blue span text
         description="No switching apps, no confusion. You can track your order, confirm delivery, and message the seller all within the same chat."
@@ -96,7 +92,7 @@ const HowItWorksPage = () => {
       />
 
       {/* Privacy Section */}
-      <FeatureSection
+      <HowItWorksFeatureSection
         heading="We take privacy,"
         headingHighlight="seriously" //blue span text
         description="All your chats and transactions are encrypted end-to-end. Your data never leaves your device unless you send it."
@@ -114,7 +110,6 @@ const HowItWorksPage = () => {
 
       {/* Call-to-action section */}
       <HowItWorksCTASection />
-      
     </>
   );
 };

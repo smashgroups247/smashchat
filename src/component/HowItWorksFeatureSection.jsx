@@ -1,7 +1,7 @@
 import React from "react";
 import StarsDecoration from "./StarsDecoration";
 
-export default function FeatureSection({
+export default function HowItWorksFeatureSection({
   heading,
   headingHighlight,
   description,
