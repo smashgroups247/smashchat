@@ -48,7 +48,7 @@ const FeaturesHero = () => {
         {/* Blue Background - Full Height extending to top, constrained on 2xl to align with navbar end */}
         <div className="absolute top-0 lg:right-0 lg:w-1/2 2xl:right-auto 2xl:left-1/2 2xl:w-[45rem] h-full bg-[#0096FF] rounded-bl-[4rem]">
           {/* White Stars Decoration on Blue Background */}
-          <StarsDecorationWhite className="top-32 left-8 w-16 h-16 z-10" />
+          <StarsDecorationWhite className="lg:top-[25rem] lg:left-[27rem] xl:top-[12rem] xl:left-[41rem] w-16 h-16 z-10" />
         </div>
 
         <div className="relative lg:max-w-[90rem] lg:mx-auto lg:px-8 xl:px-16 2xl:px-20">
