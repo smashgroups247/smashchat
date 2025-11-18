@@ -17,7 +17,7 @@ const FeaturesHero = () => {
           </div>
 
           {/* Blue Stars Decoration on Left */}
-          <StarsDecoration className="absolute top-8 left-2 w-12 h-12 z-20" />
+          <StarsDecoration className="absolute top-[15rem] left-[-0.5rem] md:top-[30rem] md:left-[-0.5rem] w-12 h-12 z-20" />
 
           {/* Image Section */}
           <div className="relative w-full pl-[3rem] z-10">
@@ -56,7 +56,7 @@ const FeaturesHero = () => {
             {/* Left Side - Text Content */}
             <div className="relative flex flex-col justify-center pb-16 lg:pb-20 xl:pb-24 pr-8 xl:pr-12 z-20">
               {/* Blue Stars Decoration on Left */}
-              <StarsDecoration className="top-0 -left-8 w-16 h-16 z-0" />
+              <StarsDecoration className="top-0 -left-8 w-16 h-16 z-0 lg:left-[-4rem] xl:top-[0.75rem] xl:left-[-5rem]" />
               
               <h1 className="font-bold text-[4rem] leading-[4.75rem] text-[#00212A] mb-6">
                 Everything you need. One place to do it.
