@@ -23,10 +23,10 @@ const FeaturesPage = () => {
         imageLeftAlt="SmashChat interface"
         imageRightAlt="Video call interface"
         layout="images-left"
-        showStars={false}
-        starsDesktop="top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem] 2xl:right-[40rem] 2xl:top-[16rem]"
-        starsMobileRight="top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
-        starsMobileLeft="top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
+        showStars={true}
+        starsDesktop="top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem] 2xl:right-[37rem] 2xl:top-[16rem]"
+        starsMobileRight="top-[9.5rem] right-[23rem] md:top-[14.5rem] md:right-[37rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
+        starsMobileLeft="hidden top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
         sectionPadding="py-[3rem] sm:py-[4rem] md:pb-[12rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
       />
 
@@ -45,10 +45,10 @@ const FeaturesPage = () => {
         imageLeftAlt="SmashChat interface"
         imageRightAlt="Video call interface"
         layout="images-right"
-        showStars={false}
-        starsDesktop="top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem] 2xl:right-[40rem] 2xl:top-[16rem]"
-        starsMobileRight="top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
-        starsMobileLeft="top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
+        showStars={true}
+        starsDesktop="top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[48rem] xl:top-[50rem] 2xl:right-[34rem] 2xl:top-[50rem]"
+        starsMobileRight="hidden top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
+        starsMobileLeft="hidden top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
         sectionPadding="py-[3rem] sm:py-[4rem] md:pb-[12rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
       />
 
@@ -67,8 +67,8 @@ const FeaturesPage = () => {
         imageLeftAlt="SmashChat interface"
         imageRightAlt="Video call interface"
         layout="images-left"
-        showStars={false}
-        starsDesktop="top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem] 2xl:right-[40rem] 2xl:top-[16rem]"
+        showStars={true}
+        starsDesktop="top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[48rem] lg:right-[58rem] xl:top-[50rem] xl:right-[85rem] 2xl:right-[120rem] 2xl:top-[50rem]"
         starsMobileRight="top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
         starsMobileLeft="top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
         sectionPadding="py-[3rem] sm:py-[4rem] md:pb-[12rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
@@ -88,9 +88,9 @@ const FeaturesPage = () => {
         imageAlt="People using SmashChat in Africa"
         layout="images-right"
         showStars={false}
-        starsDesktop="top-[1rem] left-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem]"
-        starsMobileRight="top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem]"
-        starsMobileLeft="top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] w-[4rem] h-[4rem] z-10"
+        starsDesktop="top-[1rem] left-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:right-[85rem]"
+        starsMobileRight="hidden top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem]"
+        starsMobileLeft="hidden top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] w-[4rem] h-[4rem] z-10"
         sectionPadding="py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
       />
 
