@@ -48,8 +48,8 @@ const Navbar = () => {
           <img src="/logo.svg" alt="SmashChat" className="h-7 md:h-8" />
         </Link>
 
-        {/* Desktop Menu */}
-        <div className="hidden lg:flex items-center gap-7 text-sm xl:text-base">
+       {/* Desktop Menu */}
+        <div className="hidden lg:flex items-center gap-3 xl:gap-7 text-sm xl:text-base flex-1 justify-center mx-4">
           {navLinks.map((link) => (
             <Link
               key={link.to}
