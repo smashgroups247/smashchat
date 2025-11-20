@@ -23,7 +23,25 @@ export default function WhySmashChatSection() {
 
   return (
     <section className="pt-[3.75rem] relative bg-white py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[7rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
-      <div className="max-w-[90rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem]">
+      {/* Decorative Curves - Mobile */}
+      <div className="lg:hidden absolute left-0 top-[7.625%] w-[6rem] h-[53%] z-0 pointer-events-none">
+        <img 
+          src="/curves-decoration-mobile.png" 
+          alt="" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      {/* Decorative Curves - Desktop */}
+      <div className="hidden lg:block absolute left-0 top-0 w-[20rem] lg:w-[11rem] xl:w-[11rem] 2xl:w-[11rem] h-full z-0 pointer-events-none">
+        <img 
+          src="/curves-decoration-desktop.png" 
+          alt="" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      <div className="max-w-[90rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem] relative z-10">
         {/* Section Heading */}
         <h2 className="text-[1.75rem] sm:text-[2.25rem] md:text-[2.75rem] lg:text-[3rem] xl:text-[3.375rem] font-bold leading-[2.25rem] sm:leading-[2.75rem] md:leading-[3.25rem] lg:leading-[3.75rem] xl:leading-[4rem] text-center text-[#00212A] mb-[2.5rem] sm:mb-[3rem] md:mb-[3.5rem] lg:mb-[4rem]">
           Why <span className="text-[#0096FF]">SmashChat</span> stands out.
@@ -32,10 +50,10 @@ export default function WhySmashChatSection() {
        
 
         {/* Stars Decoration - Desktop */}
-        <StarsDecoration className="hidden lg:block top-[54.0625rem] right-[8.25rem] w-[6.088rem] h-[6.801rem] lg:top-[0rem] lg:right-[3.25rem] xl:top-[1rem] xl:right-[4.25rem] 2xl:right-[45.25rem] 2xl:top-[5rem]" />
+        <StarsDecoration className="hidden lg:block top-[54.0625rem] right-[8.25rem] w-[6.088rem] h-[6.801rem] lg:top-[-5rem] lg:right-[3.25rem] xl:top-[-5rem] xl:right-[4.25rem] 2xl:right-[10rem] 2xl:top-[-5rem]" />
 
         {/* Stars Decoration - Mobile */}
-        <StarsDecoration className="lg:hidden top-[0rem] right-[0rem] w-[3rem] h-[3.5rem]" />
+        <StarsDecoration className="lg:hidden top-[-4rem] right-[0rem] w-[3rem] h-[3.5rem]" />
 
         {/* Content Grid */}
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-[2rem] lg:gap-[3rem] xl:gap-[4rem] items-center">

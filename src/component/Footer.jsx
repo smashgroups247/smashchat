@@ -7,12 +7,30 @@ const Footer = () => {
 
   return (
     <footer className="relative w-full bg-white py-8 md:py-40 px-4 md:px-8 lg:px-[8rem] overflow-x-hidden font-[Helvetica,Arial,sans-serif]">
-      <div className="max-w-[90rem] mx-auto w-full">
+      {/* Decorative Curves - Mobile (Right side) */}
+      {/* <div className="lg:hidden absolute right-0 top-[46.56rem] w-[8rem] h-[70%] z-0 pointer-events-none">
+        <img 
+          src="/curves-decoration-footer-mobile.png" 
+          alt="" 
+          className="w-full h-full object-cover"
+        />
+      </div> */}
+
+      {/* Decorative Curves - Desktop (Left side) */}
+      <div className="hidden lg:block absolute lg:left-[-2.625rem] top-0 lg:w-[10rem] xl:w-[10rem] 2xl:w-[10rem] 2xl:left-[-0.375rem] h-full z-0 pointer-events-none">
+        <img 
+          src="/curves-decoration-footer-desktop.png" 
+          alt="" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      <div className="max-w-[90rem] mx-auto w-full relative z-10">
         {/* Stars Decoration - Desktop */}
-        <StarsDecoration className="hidden lg:block lg:top-[5rem] top-[1rem] right-[2rem] w-[6.088rem] h-[6.801rem] xl:top-[4.5rem] xl:right-[3rem] 2xl:right-[30rem] 2xl:top-[4rem]" />
+        <StarsDecoration className="hidden lg:block lg:top-[-5rem] top-[1rem] right-[-5rem] w-[6.088rem] h-[6.801rem] xl:top-[-4.5rem] xl:right-[0rem] 2xl:right-[-10rem] 2xl:top-[-5rem]" />
 
         {/* Stars Decoration - Mobile */}
-        <StarsDecoration className="lg:hidden top-[9rem] right-[0rem] md:right-[24rem] md:top-[17rem] w-[3rem] h-[3.5rem] sm:right-[2rem]" />
+        <StarsDecoration className="lg:hidden top-[5rem] right-[0rem] md:right-[24rem] md:top-[7rem] w-[3rem] h-[3.5rem] sm:right-[2rem]" />
 
         {/* Main Footer Content */}
         
