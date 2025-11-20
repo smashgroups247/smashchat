@@ -1,6 +1,7 @@
 import React from "react";
 import downloadIcon from "../assets/download-icon.svg";
 import StarsDecoration from "./StarsDecoration";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -18,9 +19,9 @@ const Footer = () => {
 
       {/* Decorative Curves - Desktop (Left side) */}
       <div className="hidden lg:block absolute lg:left-[-2.625rem] top-0 lg:w-[10rem] xl:w-[10rem] 2xl:w-[10rem] 2xl:left-[-0.375rem] h-full z-0 pointer-events-none">
-        <img 
-          src="/curves-decoration-footer-desktop.png" 
-          alt="" 
+        <img
+          src="/curves-decoration-footer-desktop.png"
+          alt=""
           className="w-full h-full object-cover"
         />
       </div>
@@ -33,22 +34,14 @@ const Footer = () => {
         <StarsDecoration className="lg:hidden top-[5rem] right-[0rem] md:right-[24rem] md:top-[7rem] w-[3rem] h-[3.5rem] sm:right-[2rem]" />
 
         {/* Main Footer Content */}
-        
+
         <div className="flex flex-col lg:flex-row lg:gap-[9rem] xl:gap-[20rem] md:gap-12 gap-8">
           {/* Column 1: Logo, Tagline, Download Button */}
           <div className="flex flex-col gap-6">
-            
             {/* Logo */}
-            <div className="flex items-center gap-2">
-              <img
-                src="/logo.svg"
-                alt="SmashChat"
-                className="w-[1.75rem] h-[1.75rem] sm:w-[2rem] sm:h-[2rem]"
-              />
-              <span className="text-[1.5rem] font-bold text-[#00212A] leading-relaxed">
-                SmashChat
-              </span>
-            </div>
+            <Link to="/" className="flex items-center shrink-0">
+              <img src="/logo.svg" alt="SmashChat" className="h-7 md:h-8" />
+            </Link>
 
             {/* Tagline */}
             <p className="text-[1.125rem] leading-relaxed text-[#00212AB8] max-w-[15.625rem]">
