@@ -14,7 +14,10 @@ export default function HowItWorksFeatureSection({
   starsDesktop = null,
   starsMobileRight = null,
   starsMobileLeft = null,
-  sectionPadding = "py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
+  sectionPadding = "py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]",
+  showDecorativeCurves = false,
+  decorativeCurvesDesktop = null,
+  decorativeCurvesSrc = null
 }) {
   // Determine order classes based on layout
   const isImagesLeft = layout === "images-left";
@@ -33,6 +36,17 @@ export default function HowItWorksFeatureSection({
 
   return (
     <section className={`relative bg-white ${sectionPadding} overflow-hidden font-[Helvetica,Arial,sans-serif]`}>
+      {/* Decorative Curves - Desktop */}
+      {showDecorativeCurves && decorativeCurvesSrc && (
+        <div className={`hidden lg:block absolute left-0 top-0 w-[20rem] lg:w-[11rem] xl:w-[11rem] 2xl:w-[11rem] h-full z-0 pointer-events-none ${decorativeCurvesDesktop}`}>
+          <img 
+            src={decorativeCurvesSrc} 
+            alt="" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+      )}
+
       {/* Stars Decorations */}
       {showStars && starsDesktop && (
         <StarsDecoration className={`hidden lg:block absolute ${starsDesktop}`} />

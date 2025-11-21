@@ -4,22 +4,34 @@ import QRCodeContainer from "./QRCodeContainer";
 export default function SharedCTASection() {
   return (
     <section className="relative bg-[#0096FF] py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
-        
       <div className="max-w-[90rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem] relative z-10">
         {/* Content Grid */}
+
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-[3rem] lg:gap-[4rem] xl:gap-[5rem] items-center">
           {/* Right Side - QR Code - Shows FIRST on mobile */}
           <div className="relative w-full order-1 lg:order-2">
             <div className="relative w-full max-w-[28rem] mx-auto lg:max-w-none lg:w-full h-[25rem] sm:h-[30rem] lg:h-[35rem] xl:h-[40rem] flex flex-col items-center justify-center">
               {/* QR Code Container with white background */}
               <QRCodeContainer />
-              
+
               {/* Scan to Install text */}
               <div className="mt-[1rem] flex items-center gap-[0.5rem]">
-                <svg className="w-[1.25rem] h-[1.25rem]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3 9V6C3 4.89543 3.89543 4 5 4H8M16 4H19C20.1046 4 21 4.89543 21 6V9M21 16V19C21 20.1046 20.1046 21 19 21H16M8 21H5C3.89543 21 3 20.1046 3 19V16" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                <svg
+                  className="w-[1.25rem] h-[1.25rem]"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 9V6C3 4.89543 3.89543 4 5 4H8M16 4H19C20.1046 4 21 4.89543 21 6V9M21 16V19C21 20.1046 20.1046 21 19 21H16M8 21H5C3.89543 21 3 20.1046 3 19V16"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
                 </svg>
-                <span className="text-white text-[0.875rem] sm:text-[1rem] font-medium">Scan to Install</span>
+                <span className="text-white text-[0.875rem] sm:text-[1rem] font-medium">
+                  Scan to Install
+                </span>
               </div>
             </div>
           </div>
@@ -39,7 +51,8 @@ export default function SharedCTASection() {
 
             {/* Paragraph */}
             <p className="text-[0.875rem] lg:text-[1.5rem] font-normal leading-[1.375rem] lg:leading-[2.25rem] text-center lg:text-left text-[#00212A] max-w-[35rem] lg:max-w-[40rem] mx-auto lg:mx-0">
-              Whether you're a user, vendor, or developer SmashChat has a place for you.
+              Whether you're a user, vendor, or developer SmashChat has a place
+              for you.
             </p>
 
             {/* App Store Buttons */}

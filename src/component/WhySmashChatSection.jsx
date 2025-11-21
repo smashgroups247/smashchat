@@ -26,7 +26,7 @@ export default function WhySmashChatSection() {
       {/* Decorative Curves - Mobile */}
       <div className="lg:hidden absolute left-0 top-[7.625%] w-[6rem] h-[53%] z-0 pointer-events-none">
         <img 
-          src="/curves-decoration-mobile.png" 
+          src="/curves-decoration-mobile.svg" 
           alt="" 
           className="w-full h-full object-cover"
         />
@@ -35,7 +35,7 @@ export default function WhySmashChatSection() {
       {/* Decorative Curves - Desktop */}
       <div className="hidden lg:block absolute left-0 top-0 w-[20rem] lg:w-[11rem] xl:w-[11rem] 2xl:w-[11rem] h-full z-0 pointer-events-none">
         <img 
-          src="/curves-decoration-desktop.png" 
+          src="/curves-decoration-desktop.svg" 
           alt="" 
           className="w-full h-full object-cover"
         />

@@ -7,7 +7,21 @@ export default function OurMissionSection() {
       {/* Stars Decoration - Top Left (Desktop) */}
       <StarsDecoration className="hidden lg:block absolute top-[2rem] left-[2rem] w-[4rem] h-[4rem] z-10" />
       
-      <div className="max-w-[90rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem]">
+      {/* Decorative Curves - Mobile */}
+      {/* <img 
+        src="/mission-decoration-mobile.svg" 
+        alt="" 
+        className="lg:hidden absolute right-0 top-0 bottom-0 w-[8rem] sm:w-[10rem] h-full object-cover z-0 pointer-events-none"
+      /> */}
+      
+      {/* Decorative Curves - Desktop */}
+      <img 
+        src="/mission-decoration-desktop.svg" 
+        alt="" 
+        className="hidden lg:block absolute right-0 top-0 bottom-0 w-[12rem] xl:w-[12rem] h-full object-cover z-0 pointer-events-none"
+      />
+      
+      <div className="max-w-[90rem] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[3rem] lg:px-[5rem] xl:px-[6rem] relative z-10">
         {/* Content Grid */}
         <div className="flex flex-col lg:grid lg:grid-cols-2 gap-[2rem] lg:gap-[4rem] xl:gap-[6rem] items-center">
           

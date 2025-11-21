@@ -20,9 +20,12 @@ const HowItWorksPage = () => {
         layout="images-left"
         showStars={true}
         starsDesktop="top-[1rem] right-[1rem] w-[6rem] h-[6rem] z-10 lg:top-[8rem] xl:top-[8rem] 2xl:right-[40rem] 2xl:top-[16rem]"
-        starsMobileRight="top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
+        starsMobileRight="top-[13rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[13rem]"
         starsMobileLeft="top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
         sectionPadding="py-[3rem] sm:py-[4rem] md:pb-[12rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
+        showDecorativeCurves={true}
+        decorativeCurvesDesktop=""
+        decorativeCurvesSrc="/curves-decoration-desktop.svg"
       />
 
       {/* Sync Contacts Section */}
@@ -36,6 +39,9 @@ const HowItWorksPage = () => {
         imageRightAlt="All Contacts interface"
         layout="images-right"
         sectionPadding="lg:pt-[0rem] py-[7rem] sm:py-[4rem] md:py-[10rem] lg:py-[6rem] xl:py-[8rem]"
+        showDecorativeCurves={false}
+        decorativeCurvesDesktop=""
+        decorativeCurvesSrc="/curves-decoration-desktop.svg"
       />
 
       {/* For Start-chatting Section */}
@@ -53,6 +59,9 @@ const HowItWorksPage = () => {
         starsMobileRight="hidden top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
         starsMobileLeft="hidden top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
         sectionPadding="py-[3rem] sm:py-[4rem] md:pb-[12rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
+        showDecorativeCurves={false}
+        decorativeCurvesDesktop=""
+        decorativeCurvesSrc="/curves-decoration-desktop.svg"
       />
 
       {/* Buy-It Section */}
@@ -70,6 +79,9 @@ const HowItWorksPage = () => {
         starsMobileRight="hidden top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
         starsMobileLeft="hidden top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
         sectionPadding="py-[3rem] sm:py-[4rem] md:pb-[12rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
+        showDecorativeCurves={false}
+        decorativeCurvesDesktop=""
+        decorativeCurvesSrc="/curves-decoration-desktop.svg"
       />
 
       {/* Get Your Order Section */}
@@ -87,6 +99,9 @@ const HowItWorksPage = () => {
         starsMobileRight="hidden top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
         starsMobileLeft="hidden top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
         sectionPadding="py-[3rem] sm:py-[4rem] md:pb-[12rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
+        showDecorativeCurves={false}
+        decorativeCurvesDesktop=""
+        decorativeCurvesSrc="/curves-decoration-desktop.svg"
       />
 
       {/* Privacy Section */}
@@ -104,6 +119,9 @@ const HowItWorksPage = () => {
         starsMobileRight="hidden top-[10.5rem] right-[0rem] w-[4rem] h-[4rem] z-10 max-[424px]:w-[3rem] max-[424px]:h-[3rem] max-[424px]:top-[11rem]"
         starsMobileLeft="hidden top-[28.125rem] left-[-0.625rem] max-[424px]:w-[3rem] max-[424px]:h-[3rem] md:top-[42rem] md:right-[44rem] w-[4rem] h-[4rem] z-10"
         sectionPadding="py-[3rem] sm:py-[4rem] md:pb-[12rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem]"
+        showDecorativeCurves={false}
+        decorativeCurvesDesktop=""
+        decorativeCurvesSrc="/curves-decoration-desktop.svg"
       />
 
       {/* Call-to-action section */}

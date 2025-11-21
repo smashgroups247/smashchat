@@ -20,7 +20,7 @@ const Footer = () => {
       {/* Decorative Curves - Desktop (Left side) */}
       <div className="hidden lg:block absolute lg:left-[-2.625rem] top-0 lg:w-[10rem] xl:w-[10rem] 2xl:w-[10rem] 2xl:left-[-0.375rem] h-full z-0 pointer-events-none">
         <img
-          src="/curves-decoration-footer-desktop.png"
+          src="/curves-decoration-footer-desktop.svg"
           alt=""
           className="w-full h-full object-cover"
         />

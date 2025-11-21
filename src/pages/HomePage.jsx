@@ -2,8 +2,8 @@ import HeroSection from "../component/HeroSection";
 import WhySmashChatSection from "../component/WhySmashChatSection";
 import MarketplaceSpotlightSection from "../component/MarketplaceSpotlightSection";
 import TestimonialsSection from "../component/TestimonialsSection";
-import CTASection from "../component/HomeCTASection";
-import ImageGrid from "../component/ImageGrid";
+// import CTASection from "../component/HomeCTASection";
+// import ImageGrid from "../component/ImageGrid";
 import HomeCTASection from "../component/HomeCTASection";
 
 const HomePage = () => {
