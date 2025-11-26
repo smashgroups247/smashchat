@@ -3,9 +3,9 @@ import ImageGridHomePage from "./ImageGridHomePage";
 
 export default function HomeCTASection() {
   return (
-    <section className="relative bg-[#0096FF] py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
+  <section className="relative bg-[#0096FF] py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-0 xl:py-0 overflow-hidden font-[Helvetica,Arial,sans-serif]">
       {/* Top-right decoration - Responsive sizing */}
-      <div className="absolute top-0 right-0 w-[15rem] h-[10rem] sm:w-[18rem] sm:h-[12rem] md:w-[22rem] md:h-[15rem] lg:w-[45rem] lg:h-[25rem] xl:w-[50rem] xl:h-[28rem] pointer-events-none z-0">
+      <div className="absolute top-0 right-0 w-[15rem] h-[10rem] sm:w-[18rem] sm:h-[12rem] md:w-[22rem] md:h-[15rem] lg:w-[22rem] lg:h-[12rem] xl:w-[25rem] xl:h-[14rem] pointer-events-none z-0">
         <img
           src="/cta-decoration.png"
           alt="cta-decoration"
