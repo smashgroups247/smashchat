@@ -22,7 +22,7 @@ export default function HomeCTASection() {
           </div>
 
           {/* Stars Decoration - Desktop */}
-          <StarsDecorationWhite className="hidden lg:block top-[54.0625rem] right-[8.25rem] w-[6.088rem] h-[6.801rem] lg:top-[-6rem] lg:right-[58.25rem] xl:top-[-8rem] xl:right-[84.25rem] 2xl:right-[82.55rem] 2xl:top-[-8rem]" />
+          <StarsDecorationWhite className="hidden lg:block top-[54.0625rem] right-[8.25rem] w-[6.088rem] h-[6.801rem] lg:top-[0rem] lg:right-[58.5rem] xl:top-[0rem] xl:right-[84.25rem] 2xl:right-[82.55rem] 2xl:top-[0rem]" />
 
           {/* Stars Decoration - Mobile */}
           <StarsDecorationWhite className="top-[25rem] right-[23rem] w-[3rem] h-[3.5rem] max-[424px]:top-[25rem] max-[424px]:right-[20rem] md:right-[44rem] md:top-[28rem] lg:hidden" />
