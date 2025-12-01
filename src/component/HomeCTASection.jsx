@@ -3,9 +3,9 @@ import ImageGridHomePage from "./ImageGridHomePage";
 
 export default function HomeCTASection() {
   return (
-    <section className="relative bg-[#0096FF] py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-[6rem] xl:py-[8rem] overflow-hidden font-[Helvetica,Arial,sans-serif]">
+  <section className="relative bg-[#0096FF] py-[3rem] sm:py-[4rem] md:py-[5rem] lg:py-0 xl:py-0 overflow-hidden font-[Helvetica,Arial,sans-serif]">
       {/* Top-right decoration - Responsive sizing */}
-      <div className="absolute top-0 right-0 w-[15rem] h-[10rem] sm:w-[18rem] sm:h-[12rem] md:w-[22rem] md:h-[15rem] lg:w-[45rem] lg:h-[25rem] xl:w-[50rem] xl:h-[28rem] pointer-events-none z-0">
+      <div className="absolute top-0 right-0 w-[15rem] h-[10rem] sm:w-[18rem] sm:h-[12rem] md:w-[22rem] md:h-[15rem] lg:w-[22rem] lg:h-[12rem] xl:w-[25rem] xl:h-[14rem] pointer-events-none z-0">
         <img
           src="/cta-decoration.png"
           alt="cta-decoration"
@@ -22,7 +22,7 @@ export default function HomeCTASection() {
           </div>
 
           {/* Stars Decoration - Desktop */}
-          <StarsDecorationWhite className="hidden lg:block top-[54.0625rem] right-[8.25rem] w-[6.088rem] h-[6.801rem] lg:top-[-6rem] lg:right-[58.25rem] xl:top-[-8rem] xl:right-[84.25rem] 2xl:right-[82.55rem] 2xl:top-[-8rem]" />
+          <StarsDecorationWhite className="hidden lg:block top-[54.0625rem] right-[8.25rem] w-[6.088rem] h-[6.801rem] lg:top-[0rem] lg:right-[58.5rem] xl:top-[0rem] xl:right-[84.25rem] 2xl:right-[82.55rem] 2xl:top-[0rem]" />
 
           {/* Stars Decoration - Mobile */}
           <StarsDecorationWhite className="top-[25rem] right-[23rem] w-[3rem] h-[3.5rem] max-[424px]:top-[25rem] max-[424px]:right-[20rem] md:right-[44rem] md:top-[28rem] lg:hidden" />
